@@ -1,0 +1,651 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.4/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.4/ http://www.mediawiki.org/xml/export-0.4.xsd" version="0.4" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <base>http://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.16alpha-wmf</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">Wikipedia</namespace>
+      <namespace key="5">Wikipedia talk</namespace>
+      <namespace key="6">File</namespace>
+      <namespace key="7">File talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="100">Portal</namespace>
+      <namespace key="101">Portal talk</namespace>
+      <namespace key="108">Book</namespace>
+      <namespace key="109">Book talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Isaac Newton</title>
+    <id>14627</id>
+    <revision>
+      <id>335787354</id>
+      <timestamp>2010-01-04T10:29:28Z</timestamp>
+      <contributor>
+        <username>Goldenlane</username>
+        <id>1344406</id>
+      </contributor>
+      <comment>/* Commemorations */</comment>
+      <text xml:space="preserve">{{sprotect2}}
+{{Infobox scientist
+|name             = Sir Isaac Newton
+|image            = GodfreyKneller-IsaacNewton-1689.jpg
+|alt              = Head and shoulders portrait of man in black with shoulder-length gray hair, a large sharp nose, and an abstracted gaze
+|caption          = [[Godfrey Kneller]]'s 1689 portrait of Isaac Newton (aged 46)
+|birth_date       = {{birth date|1643|1|4|df=y}}&lt;br /&gt;&lt;small&gt;&lt;nowiki&gt;[&lt;/nowiki&gt;[[Old Style|OS]]: 25 December 1642&lt;nowiki&gt;]&lt;/nowiki&gt;&lt;/small&gt;&lt;ref name=&quot;OSNS&quot;&gt;During Newton's lifetime, two calendars were in use in Europe: the [[Julian Calendar|Julian]] or '[[Old Style]]' in Britain and parts of northern Europe (Protestant) and eastern Europe, and the [[Gregorian Calendar|Gregorian]] or '[[New Style]]', in use in Roman Catholic Europe and elsewhere. At Newton's birth, Gregorian dates were ten days ahead of Julian dates: thus Newton was born on Christmas Day, 25 December 1642 by the Julian calendar, but on 4 January 1643 by the Gregorian. By the time he died, the difference between the calendars had increased to eleven days.  Moreover, prior to the adoption of the Gregorian calendar in the UK in 1752, the English new year began (for legal and some other civil purposes) on 25 March ('[[Lady Day]]', i.e. the feast of the Annunciation: sometimes called 'Annunciation Style') rather than on 1 January (sometimes called 'Circumcision Style').  Unless otherwise noted, the remainder of the dates in this article follow the Julian Calendar.&lt;/ref&gt;
+|birth_place       = [[Woolsthorpe-by-Colsterworth]]&lt;br /&gt;[[Lincolnshire]], England
+|residence         = England
+|ethnicity         =
+|death_date        = {{death date and age|1727|3|31|1643|1|4|df=y}}&lt;br /&gt;&lt;small&gt;&lt;nowiki&gt;[&lt;/nowiki&gt;[[Old Style and New Style dates|OS]]: 20 March 1727&lt;nowiki&gt;]&lt;/nowiki&gt;&lt;/small&gt;{{lower|0.3em|&lt;ref name=&quot;OSNS&quot;/&gt;}}
+|death_place       = [[Kensington]], [[Middlesex]], England
+|fields            = [[physics]], [[mathematics]], [[astronomy]], [[natural philosophy]], [[alchemy]], [[theology]]
+|workplaces        = [[University of Cambridge]]&lt;br /&gt;[[Royal Society]]&lt;br /&gt;[[Royal Mint]]
+|alma_mater        = [[Trinity College, Cambridge]]
+|doctoral_advisor  = &lt;!--There was no doctorate at Cambridge until as late as 1919--&gt;
+|academic_advisors = [[Isaac Barrow]]&lt;ref&gt;Mordechai Feingold, [http://www.oxforddnb.com/view/article/1541 Barrow, Isaac (1630–1677)], ''Oxford Dictionary of National Biography'', [[Oxford University Press]], September 2004; online edn, May 2007; accessed 24 February 2009; explained further in Mordechai Feingold &quot; [http://www.jstor.org/stable/236236 Newton, Leibniz, and Barrow Too: An Attempt at a Reinterpretation]&quot;; ''Isis'', Vol. 84, No. 2 (June, 1993), pp. 310-338&lt;/ref&gt; &lt;br /&gt;[[Benjamin Pulleyn]]&lt;ref&gt;''[http://www.chlt.org/sandbox/lhl/dsb/page.50.a.php Dictionary of Scientific Biography,] Newton, Isaac,'' n.4&lt;/ref&gt;&lt;ref&gt;{{cite book |author=Gjersten, Derek |title=The Newton Handbook |year=1986 |location=London |publisher=Routledge &amp; Kegan Paul}}&lt;/ref&gt;
+|doctoral_students = &lt;!--There was no doctorate at Cambridge until as late as 1919--&gt;
+|notable_students  = [[Roger Cotes]]&lt;br /&gt;[[William Whiston]]
+|known_for   = [[Newtonian mechanics]]&lt;br /&gt;[[Universal gravitation]]&lt;br /&gt;[[Calculus]]&lt;br /&gt;[[Optics]]
+|author_abbrev_bot =
+|author_abbrev_zoo =
+|influences        = [[Henry More]]&lt;ref name=&quot;More&quot;&gt;{{cite book |last=Westfall |first=Richard S. |origyear=1980 |year=1983 |title=&quot;Never at Rest: A Biography of Isaac Newton |publisher=Cambridge University Press |location=Cambridge|ISBN=0521274354, 9780521274357 |pages=530–1}}&lt;/ref&gt;&lt;br /&gt;[[Polish Brethren]]&lt;ref name=&quot;heretic&quot;&gt;{{cite journal |last=Snobelen |first=Stephen D. |title=Isaac Newton, heretic: the strategies of a Nicodemite |journal=British Journal for the History of Science |volume=32 |pages=381–419 |year=1999 |url=http://www.isaac-newton.org/heretic.pdf |format=PDF|doi=10.1017/S0007087499003751 }}&lt;/ref&gt;
+|influenced        = [[Nicolas Fatio de Duillier]]&lt;br /&gt;[[John Keill]]
+|awards            =
+|religion          = [[Arianism]]; for details see [[Isaac Newton's religious views|article]]
+|signature         = Isaac Newton signature.svg
+|signature_alt     = Is. Newton
+|footnotes         = His mother was [[Hannah Ayscough]]. His half-niece was [[Catherine Barton]].
+}}
+
+'''Sir Isaac Newton''' [[Fellow of the Royal Society|FRS]] (4 January 1643{{ndash}} 31 March 1727 {{smaller|&lt;nowiki&gt;[&lt;/nowiki&gt;[[Old Style and New Style dates|OS]]: 25 December 1642{{ndash}} 20 March 1727&lt;nowiki&gt;]&lt;/nowiki&gt;}})&lt;ref name=&quot;OSNS&quot;/&gt; was an [[English people|English]] [[physicist]], [[mathematician]], [[Astronomy|astronomer]], [[Natural philosophy|natural philosopher]], [[Alchemy|alchemist]], and [[Theology|theologian]] who is perceived and considered by a substantial number of scholars and the general public as one of the most influential scientists in history. His 1687 publication of the ''[[Philosophiæ Naturalis Principia Mathematica]]'' (usually called the ''[[Philosophiæ Naturalis Principia Mathematica|Principia]]'') is considered to be among the most influential books in the [[history of science]], laying the groundwork for most of [[classical mechanics]].  In this work, Newton described [[law of universal gravitation|universal gravitation]] and the three [[Newton's laws of motion|laws of motion]] which dominated the scientific view of the [[physical universe]] for the next three centuries.  Newton showed that the motions of objects on [[Earth]] and of [[celestial mechanics|celestial]] bodies are governed by the same set of natural laws by demonstrating the consistency between [[Kepler's laws of planetary motion]] and his theory of gravitation, thus removing the last doubts about [[heliocentrism]] and advancing the [[scientific revolution]].
+
+Newton also built the first practical [[reflecting telescope]]&lt;ref&gt;{{cite web|url=http://etoile.berkeley.edu/~jrg/TelescopeHistory/Early_Period.html|title=The Early Period (1608–1672)|accessdate=2009-02-03|publisher=James R. Graham's Home Page}}&lt;/ref&gt; and developed a theory of [[colour]] based on the observation that a [[triangular prism (optics)|prism]] decomposes [[white#light|white light]] into the many colours that form the [[visible spectrum]].  He also formulated an empirical [[Newton's law of cooling|law of cooling]] and studied the [[speed of sound]].
+
+In mathematics, Newton [[Leibniz_and_Newton_calculus_controversy|shares]] the credit with [[Gottfried Leibniz]] for the [[history of calculus|development]] of the differential and integral [[infinitesimal calculus|calculus]]. He also demonstrated the [[binomial theorem|generalised binomial theorem]], developed the so-called &quot;[[Newton's method]]&quot; for approximating the zeroes of a [[Function (mathematics)|function]], and contributed to the study of [[power series]].
+
+Newton remains influential to scientists, as demonstrated by a 2005 survey of members of Britain's [[Royal Society]] (formerly headed by Newton) asking  who had the greater effect on the history of science, Newton or [[Albert Einstein]]. [[Royal Society]] scientists deemed Newton to have made the greater overall contribution.&lt;ref&gt;{{cite web |title=Newton beats Einstein in polls of Royal Society scientists and the public |work=The Royal Society |url=http://www.royalsoc.ac.uk/news.asp?id=3880}}&lt;/ref&gt; In 1999, leading physicists from all over the world voted [[Einstein]] &quot;greatest physicist ever;&quot; Newton was the runner-up.&lt;ref&gt;[[Einstein]] voted &quot;greatest physicist ever&quot; by leading physicists; Newton runner-up: BBC news, Monday, 29 November, 1999, http://news.bbc.co.uk/2/hi/science/nature/541840.stm &lt;/ref&gt;
+
+Newton was also highly religious, though [[Isaac Newton's religious views|an unorthodox Christian]], writing more on [[Biblical hermeneutics]] and [[Isaac Newton's occult studies|occult studies]] than the natural science for which he is remembered for today.
+
+==Life==
+===Early years===
+{{Main|Isaac Newton's early life and achievements}}
+
+Isaac Newton was born on 4 January 1643 &lt;small&gt;&lt;nowiki&gt;[&lt;/nowiki&gt;[[Old Style and New Style dates|OS]]: 25 December 1642&lt;nowiki&gt;]&lt;/nowiki&gt;&lt;ref name=&quot;OSNS&quot;/&gt;&lt;/small&gt; at [[Woolsthorpe Manor]] in [[Woolsthorpe-by-Colsterworth]], a [[Hamlet (place)|hamlet]] in the county of [[Lincolnshire]]. At the time of Newton's birth, England had not adopted the [[Gregorian calendar]] and therefore his date of birth was recorded as Christmas Day, 25 December 1642. Newton was born three months after the death of his father, a prosperous farmer also named Isaac Newton. Born [[Premature birth|prematurely]], he was a small child; his mother [[Hannah Ayscough]] reportedly said that he could have fit inside a [[quart]] mug (≈ 1.1 litre). From this information, it can be estimated that he was born roughly 11 to 15 weeks early. When Newton was three, his mother remarried and went to live with her new husband, the Reverend Barnabus Smith, leaving her son in the care of his maternal grandmother, Margery Ayscough. The young Isaac disliked his stepfather and held some enmity towards his mother for marrying him, as revealed by this entry in a list of sins committed up to the age of 19: &quot;Threatening my father and mother Smith to burn them and the house over them.&quot;&lt;ref&gt;Cohen, I.B. (1970). Dictionary of Scientific Biography, Vol. 11, p.43. New York: Charles Scribner's Sons&lt;/ref&gt;
+[[Image:Sir Isaac Newton by Sir Godfrey Kneller, Bt.jpg|thumb|Newton in a 1702 portrait by [[Godfrey Kneller]]]]
+[[Image:Bolton-newton.jpg|thumb|Isaac Newton (''Bolton, Sarah K. Famous Men of Science. NY: Thomas Y. Crowell &amp; Co., 1889'')]]
+
+From the age of about twelve until he was seventeen, Newton was educated at [[The King's School, Grantham]] (where his signature can still be seen upon a library window sill). He was removed from school, and by October 1659, he was to be found at [[Woolsthorpe-by-Colsterworth]], where his mother, widowed by now for a second time, attempted to make a farmer of him. He hated farming.&lt;ref&gt;Westfall (1993) pp 16-19&lt;/ref&gt;  Henry Stokes, master at the King's School, persuaded his mother to send him back to school so that he might complete his education. Motivated partly by a desire for revenge against a schoolyard bully, he became the top-ranked student.&lt;ref&gt;White 1997, p. 22&lt;/ref&gt;
+
+In June 1661, he was admitted to [[Trinity College, Cambridge]] as a [[sizar]]&amp;mdash;a sort of work-study role.&lt;ref&gt;Michael White, ''Isaac Newton'' (1999) [http://books.google.com/books?id=l2C3NV38tM0C&amp;pg=PA24&amp;dq=storer+intitle:isaac+intitle:newton&amp;lr=&amp;num=30&amp;as_brr=0&amp;as_pt=ALLTYPES#PPA46,M1 page 46] &lt;/ref&gt; At that time, the college's teachings were based on those of [[Aristotle]], but Newton preferred to read the more advanced ideas of modern philosophers such as [[René Descartes|Descartes]] and [[astronomers]] such as [[Nicolaus Copernicus|Copernicus]], [[Galileo Galilei|Galileo]], and [[Johannes Kepler|Kepler]]. In 1665, he discovered the generalized [[binomial theorem]] and began to develop a mathematical theory that would later become [[infinitesimal calculus]]. Soon after Newton had obtained his degree in August of 1665, the University temporarily closed as a precaution against the [[Great Plague of London|Great Plague]]. Although he had been undistinguished as a Cambridge student,&lt;ref&gt;ed. Michael Hoskins (1997). Cambridge Illustrated History of Astronomy, p.&amp;nbsp;159. [[Cambridge University Press]]&lt;/ref&gt; Newton's private studies at his home in Woolsthorpe over the subsequent two years saw the development of his theories on calculus, [[optics]] and the [[law of gravitation]]. In 1667 he returned to Cambridge as a fellow of Trinity.&lt;ref&gt;{{Venn|id=RY644J|name=Newton, Isaac}}&lt;/ref&gt;
+
+===Middle years===
+====Mathematics====
+Newton's mathematical work has been said &quot;to distinctly advance every branch of mathematics then studied&quot;.&lt;ref&gt;W W Rouse Ball (1908), &quot;A short account of the history of mathematics&quot;, at page 319.&lt;/ref&gt; Newton's early work on the subject usually referred to as fluxions or calculus is seen, for example, in a manuscript of October 1666, now published among Newton's mathematical papers.&lt;ref&gt;D T Whiteside (ed.), ''The Mathematical Papers of Isaac Newton'' (Volume 1), (Cambridge University Press, 1967), part 7 &quot;The October 1666 Tract on Fluxions&quot;, [http://books.google.com/books?id=1ZcYsNBptfYC&amp;pg=PA400 at page 400, in 2008 reprint].&lt;/ref&gt; A related subject of his mathematical work was infinite series.  Newton's manuscript &quot;De analysi per aequationes numero terminorum infinitas&quot; (&quot;On analysis by equations infinite in number of terms&quot;) was sent by [[Isaac Barrow]] to [[John Collins (mathematician)|John Collins]] in June 1669: in August 1669 Barrow identified its author to Collins as &quot;Mr Newton, a fellow of our College, and very young ... but of an extraordinary genius and proficiency in these things&quot;.&lt;ref&gt;D Gjertsen (1986), &quot;The Newton handbook&quot;, (London (Routledge &amp; Kegan Paul) 1986), at page 149.&lt;/ref&gt; Newton later became involved in a dispute with [[Leibniz]] over [[Leibniz and Newton calculus controversy|priority in the development of infinitesimal calculus]]. Most modern historians believe that Newton and [[Leibniz]] developed [[infinitesimal calculus]] independently, although with very different notations. Occasionally it has been suggested that Newton published almost nothing about it until 1693, and did not give a full account until 1704, while Leibniz began publishing a full account of his methods in 1684.  (Leibniz's notation and &quot;differential Method&quot;, nowadays recognized as much more convenient notations, were adopted by continental European mathematicians, and after 1820 or so, also by British mathematicians.)  Such a suggestion, however, omits to notice the content of calculus which critics of Newton's time and modern times have pointed out in [[Philosophiæ Naturalis Principia Mathematica#Book 1, De motu corporum|Book 1]] of Newton's  ''Principia'' itself (published 1687) and in its forerunner manuscripts, such as [[De motu corporum in gyrum]] (&quot;On the motion of bodies in orbit&quot;), of 1684. The ''[[Philosophiæ Naturalis Principia Mathematica|Principia]]'' is not written in the language of calculus either as we know it or as Newton's (later) 'dot' notation would write it. But Newton's work extensively uses an infinitesimal calculus in geometric form, based on limiting values of the ratios of vanishing small quantities: in the ''Principia'' itself Newton gave demonstration of this under the name of 'the method of first and last ratios'&lt;ref&gt;Newton, 'Principia', 1729 English translation, [http://books.google.com/books?id=Tm0FAAAAQAAJ&amp;pg=PA41 at page 41].&lt;/ref&gt; and explained why he put his expositions in this form,&lt;ref&gt;Newton, 'Principia', 1729 English translation, [http://books.google.com/books?id=Tm0FAAAAQAAJ&amp;pg=PA54 at page 54].&lt;/ref&gt; remarking also that 'hereby the same thing is performed as by the method of indivisibles'. Because of this content the ''Principia'' has been called &quot;a book dense with the theory and application of the infinitesimal calculus&quot; in modern times&lt;ref&gt;Clifford Truesdell, ''Essays in the History of Mechanics'' (Berlin, 1968), at p.99.&lt;/ref&gt; and &quot;lequel est presque tout de ce calcul&quot; ('nearly all of it is of this calculus') in Newton's time.&lt;ref&gt;In the preface to the Marquis de L'Hospital's ''Analyse des Infiniment Petits'' (Paris, 1696).&lt;/ref&gt; Newton's use of  methods involving &quot;one or more orders of the infinitesimally small&quot; is present in Newton's ''[[De Motu Corporum in Gyrum]]'' of 1684&lt;ref&gt;Starting with [[De Motu Corporum in Gyrum#Contents of 'De Motu']], see also [http://books.google.com/books?id=uvMGAAAAcAAJ&amp;pg=RA1-PA2 (Latin) Theorem 1].&lt;/ref&gt; and in his papers on motion &quot;during the two decades preceding 1684&quot;.&lt;ref&gt;D T Whiteside (1970), &quot;The Mathematical principles underlying Newton's Principia Mathematica&quot; in ''Journal for the History of Astronomy'', vol.1, pages 116-138, especially at pages 119-120.&lt;/ref&gt;
+
+Newton is said to have claimed that he had been reluctant to publish his calculus because he feared being mocked for it.{{Citation needed|date=September 2009}} Newton had a very close relationship with Swiss mathematician [[Nicolas Fatio de Duillier]], who from the beginning was impressed by Newton's [[gravitational theory]]. In 1691 Duillier planned to prepare a new version of Newton's ''Principia'', but never finished it.  However, in 1693 the relationship between the two men changed. At the time, Duillier had also exchanged several letters with Leibniz.&lt;ref&gt;Westfall 1980, pp 538–539&lt;/ref&gt;
+
+Starting in 1699, other members of the [[Royal Society]] (of which Newton was a member) accused Leibniz of [[plagiarism]], and the dispute broke out in full force in 1711. Newton's Royal Society proclaimed in a study that it was Newton who was the true discoverer and labeled Leibniz a fraud. This study was cast into doubt when it was later found that Newton himself wrote the study's concluding remarks on Leibniz. Thus began the bitter [[Newton v. Leibniz calculus controversy]], which marred the lives of both Newton and Leibniz until the latter's death in 1716.&lt;ref&gt;Ball 1908, p. 356ff&lt;/ref&gt;
+
+Newton is generally credited with the [[Binomial theorem#Newton.27s generalized binomial theorem|generalized binomial theorem]], valid for any exponent. He discovered [[Newton's identities]], [[Newton's method]], classified cubic plane curves ([[polynomials]] of degree three in two [[Variable (mathematics)|variables]]), made substantial contributions to the theory of [[finite differences]], and was the first to use fractional indices and to employ [[coordinate geometry]] to derive solutions to [[Diophantine equations]]. He approximated partial sums of the [[Harmonic series (mathematics)|harmonic series]] by [[logarithms]] (a precursor to [[Euler's summation formula]]), and was the first to use [[power series]] with confidence and to revert power series.
+
+He was elected [[Lucasian Professor of Mathematics]] in 1669. In that day, any fellow of Cambridge or [[University of Oxford|Oxford]] had to be an ordained [[Anglicanism|Anglican]] priest. However, the terms of the Lucasian professorship required that the holder ''not'' be active in the church (presumably so as to have more time for science). Newton argued that this should exempt him from the ordination requirement, and [[Charles II of England|Charles II]], whose permission was needed, accepted this argument. Thus a conflict between Newton's religious views and Anglican orthodoxy was averted.&lt;ref&gt;White 1997, p. 151&lt;/ref&gt;
+
+====Optics====
+[[Image:NewtonsTelescopeReplica.jpg|thumb|A replica of Newton's second [[Reflecting telescope]] that he presented to the [[Royal Society]] in 1672&lt;ref&gt;[http://books.google.com/books?id=KAWwzHlDVksC&amp;dq=history+of+the+telescope&amp;printsec=frontcover&amp;source=bn&amp;hl=en&amp;ei=4kK3SZWjC5-atwf6vOG-CQ&amp;sa=X&amp;oi=book_result&amp;resnum=4&amp;ct=result#PPA74,M1 ''The History of the Telescope'' By Henry C. King, Page 74]&lt;/ref&gt;]]
+From 1670 to 1672, Newton lectured on optics. During this period he investigated the [[refraction]] of light, demonstrating that a [[Triangular prism (optics)|prism]] could decompose [[White|white light]] into a [[optical spectrum|spectrum]] of colours, and that a [[Lens (optics)|lens]] and a second prism could recompose the multicoloured spectrum into white light.&lt;ref&gt;Ball 1908, p. 324&lt;/ref&gt;
+
+He also showed that the coloured light does not change its properties by separating out a coloured beam and shining it on various objects. Newton noted that regardless of whether it was reflected or scattered or transmitted, it stayed the same colour. Thus, he observed that colour is the result of objects interacting with already-coloured light rather than objects generating the colour themselves. This is known as [[Isaac Newton's early life and achievements#Newton's theory of colour|Newton's theory of colour]].&lt;ref&gt;Ball 1908, p. 325&lt;/ref&gt;
+
+From this work he concluded that the lens of any [[refracting telescope]] would suffer from the [[dispersion (optics)|dispersion]] of light into colours ([[chromatic aberration]]), and as a proof of the concept he constructed a telescope using a mirror as the [[Objective (optics)|objective]] to bypass that problem.&lt;ref name=&quot;White 1997, p170&quot;&gt;White 1997, p170&lt;/ref&gt; Actually building the design, the first known functional reflecting telescope, today known as a [[Newtonian telescope]],&lt;ref name=&quot;White 1997, p170&quot;/&gt; involved solving the problem of a suitable mirror material and shaping technique. Newton ground his own mirrors out of a custom composition of highly reflective [[speculum metal]], using [[Newton's rings]] to judge the [[Quality (physics)|quality]] of the optics for his telescopes. In late 1668&lt;ref name=&quot;books.google.com&quot;&gt;[http://books.google.com/books?id=32IDpTdthm4C&amp;pg=PA67&amp;lpg=PA67&amp;dq=newton+reflecting+telescope++1668+letter+1669&amp;source=bl&amp;ots=PKABaGwPaN&amp;sig=rPS8w23_nAp3kH5YMYGZ7JHhOaI&amp;hl=en&amp;ei=0QC1Svf7AsWb8Aa3nqGTDw&amp;sa=X&amp;oi=book_result&amp;ct=result&amp;resnum=5#v=onepage&amp;q=newton%20reflecting%20telescope%20%201668%20letter%201669&amp;f=false '''Isaac Newton: adventurer in thought''', by Alfred Rupert Hall, page 67]&lt;/ref&gt; he was able to produce this first ''reflecting telescope''.  In 1671 the Royal Society asked for a demonstration of his reflecting telescope.&lt;ref&gt;White 1997, p168&lt;/ref&gt; Their interest encouraged him to publish his notes ''On Colour'', which he later expanded into his ''[[Opticks]]''. When [[Robert Hooke]] criticised some of Newton's ideas, Newton was so offended that he withdrew from public debate.  Newton and Hooke had brief exchanges in 1679-80, when Hooke, appointed to manage the Royal Society's correspondence, opened up a correspondence intended to elicit contributions from Newton to Royal Society transactions,&lt;ref name=hooke1679nov24&gt;See 'Correspondence of Isaac Newton, vol.2, 1676-1687' ed. H W Turnbull, Cambridge University Press 1960; at page 297, document #235, letter from Hooke to Newton dated 24 November 1679.&lt;/ref&gt; which had the effect of stimulating Newton to work out a proof that the elliptical form of planetary orbits would result from a centripetal force inversely proportional to the square of the radius vector (see [[Newton's law of universal gravitation#History|Newton's law of universal gravitation - History]] and ''[[De motu corporum in gyrum]]'').  But the two men remained generally on poor terms until Hooke's death.&lt;ref&gt;Iliffe, Robert (2007) Newton. A very short introduction, Oxford University Press 2007 &lt;/ref&gt;
+
+Newton argued that light is composed of particles or corpuscles, which were refracted by accelerating into a denser medium.  He verged on sound-like waves to explain the repeated pattern of reflection and transmission by thin films (Opticks Bk.II, Props. 12), but still retained his theory of ‘fits’ that disposed corpuscles to be reflected or transmitted (Props.13).  Later physicists instead favoured a purely wavelike explanation of light to account for the [[Interference (wave propagation)|interference]] patterns, and the general phenomenon of [[diffraction]]. Today's [[quantum mechanics]], [[photons]] and the idea of [[wave–particle duality]] bear only a minor resemblance to Newton's understanding of light.
+
+In his ''Hypothesis of Light'' of 1675, Newton [[wikt:posit|posited]] the existence of the [[luminiferous aether|ether]] to transmit forces between particles. The contact with the [[theosophist]] [[Henry More]], revived his interest in alchemy. He replaced the ether with occult forces based on [[Hermeticism|Hermetic]] ideas of attraction and repulsion between particles. [[John Maynard Keynes]], who acquired many of Newton's writings on alchemy, stated that &quot;Newton was not the first of the age of reason: he was the last of the magicians.&quot;&lt;ref&gt;{{cite book |last=Keynes |first=John Maynard |year=1972 |chapter=Newton, The Man |title=The Collected Writings of John Maynard Keynes Volume X |publisher=MacMillan St. Martin's Press |pages=363–4}}&lt;/ref&gt; Newton's interest in alchemy cannot be isolated from his contributions to science; however, he did apparently abandon his alchemical researches.&lt;ref name=&quot;More&quot; /&gt; (This was at a time when there was no clear distinction between alchemy and science.) Had he not relied on the [[occult]] idea of [[action at a distance (physics)|action at a distance]], across a vacuum, he might not have developed his theory of gravity. (See also [[Isaac Newton's occult studies]].)
+
+In 1704 Newton published ''[[Opticks]]'', in which he expounded his corpuscular theory of light. He considered light to be made up of extremely subtle corpuscles, that ordinary matter was made of grosser corpuscles and speculated that through a kind of alchemical transmutation &quot;Are not gross Bodies and Light convertible into one another, …and may not Bodies receive much of their Activity from the Particles of Light which enter their Composition?&quot;&lt;ref&gt;{{cite journal |last=Dobbs |first=J.T. |year=1982 |month=December |title=Newton's Alchemy and His Theory of Matter |journal=Isis |volume=73 |issue=4 |page=523 |doi=10.1086/353114 |pages=511}} quoting ''Opticks''&lt;/ref&gt;  Newton also constructed a primitive form of a frictional [[electrostatic generator]], using a [[glass]] globe (Optics, 8th Query).
+
+====Mechanics and gravitation====
+[[Image:NewtonsPrincipia.jpg|thumb|Newton's own copy of his ''[[Philosophiæ Naturalis Principia Mathematica|Principia]]'', with hand-written corrections for the second edition]]
+{{further|[[Writing of Principia Mathematica]]}}
+
+In 1679, Newton returned to his work on mechanics, i.e., gravitation and its effect on the orbits of [[planet]]s, with reference to [[Kepler's laws]] of planetary motion, after stimulation by a brief exchange of letters in 1679-80 with Hooke, who had been appointed to manage the Royal Society's correspondence, and who opened up a correspondence intended to elicit contributions from Newton to Royal Society transactions.&lt;ref name=hooke1679nov24 /&gt; Newton's reawakening interest in astronomical matters received further stimulus by the appearance of a comet in the winter of 1680/1681, on which he corresponded with [[John Flamsteed]].&lt;ref&gt;R S Westfall, 'Never at Rest', 1980, at pages 391-2.&lt;/ref&gt; After the exchanges with Hooke, Newton worked out a proof that the elliptical form of planetary orbits would result from a centripetal force inversely proportional to the square of the radius vector (see [[Newton's law of universal gravitation#History|Newton's law of universal gravitation - History]] and De motu corporum in gyrum).  Newton communicated his results to [[Edmond Halley]] and to the Royal Society in ''[[De motu corporum in gyrum]]'', a tract written on about 9 sheets which was copied into the Royal Society's Register Book in December 1684.&lt;ref&gt;D T Whiteside (ed.), 'Mathematical Papers of Isaac Newton', vol.6, 1684-1691, Cambridge University Press 1974, at page 30.&lt;/ref&gt; This tract contained the nucleus that Newton developed and expanded to form the ''Principia''.
+
+The ''[[Philosophiae Naturalis Principia Mathematica|Principia]]'' was published on 5 July 1687 with encouragement and financial help from [[Edmond Halley]]. In this work Newton stated the [[Isaac Newton#Newton's laws of motion|three universal laws of motion]] that were not to be improved upon for more than two hundred years. He used the Latin word ''gravitas'' (weight) for the effect that would become known as [[gravity]], and defined the law of [[Newton's law of universal gravitation|universal gravitation]]. In the same work Newton presented a calculus-like method of geometrical analysis by 'first and last ratios', gave the first analytical determination (based on [[Boyle's law]]) of the speed of sound in air, inferred the oblateness of the spheroidal figure of the Earth, accounted for the precession of the equinoxes as a result of the Moon's gravitational attraction on the Earth's oblateness, initiated the gravitational study of the [[Lunar theory#Newton|irregularities in the motion of the moon]], provided a theory for the determination of the orbits of comets, and much else. 
+
+Newton made clear his heliocentric view of the solar system &amp;ndash; developed in a somewhat modern way, since already in the mid-1680s he recognized the &quot;deviation of the Sun&quot; from the centre of gravity of the solar system.&lt;ref&gt;See Curtis Wilson, &quot;The Newtonian achievement in astronomy&quot;, pages 233-274 in R Taton &amp; C Wilson (eds) (1989) ''The General History of Astronomy'', Volume, 2A', [http://books.google.com/books?id=rkQKU-wfPYMC&amp;pg=PA233 at page 233]).&lt;/ref&gt; For Newton, it was not precisely the centre of the Sun or any other body that could be considered at rest, but rather &quot;the common centre of gravity of the Earth, the Sun and all the Planets is to be esteem'd the Centre of the World&quot;, and this centre of gravity &quot;either is at rest or moves uniformly forward in a right line&quot; (Newton adopted the &quot;at rest&quot; alternative in view of common consent that the centre, wherever it was, was at rest).&lt;ref&gt;Text quotations are from 1729 translation of Newton's ''Principia'', Book 3 (1729 vol.2) [http://books.google.com/books?id=6EqxPav3vIsC&amp;pg=PA233 at pages 232-233]).&lt;/ref&gt;
+
+Newton's postulate of an invisible [[Action at a distance (physics)|force able to act over vast distances]] led to him being criticised for introducing &quot;[[occult]] agencies&quot; into science.&lt;ref&gt;Edelglass et al., ''Matter and Mind'', ISBN 0940262452. p. 54&lt;/ref&gt;  Later, in the second edition of the ''Principia'' (1713), Newton firmly rejected such criticisms in a concluding General Scholium, writing that it was enough that the phenomena implied a gravitational attraction, as they did; but they did not so far indicate its cause, and it was both unnecessary and improper to frame hypotheses of things that were not implied by the phenomena. (Here Newton used what became his famous expression ''[[Hypotheses non fingo]]'').
+
+With the ''Principia'', Newton became internationally recognised.&lt;ref&gt;Westfall 1980. Chapter 11.&lt;/ref&gt; He acquired a circle of admirers, including the [[Switzerland|Swiss]]-born mathematician [[Nicolas Fatio de Duillier]], with whom he formed an intense relationship that lasted until 1693, when it abruptly ended, at the same time that Newton suffered a [[nervous breakdown]].&lt;ref&gt;Westfall 1980. pp 493–497 on the friendship with Fatio, pp 531–540 on Newton's breakdown.&lt;/ref&gt;
+
+===Later life===
+[[Image:Newton 25.jpg|thumb|Isaac Newton in old age in 1712, portrait by [[Sir James Thornhill]]]]
+{{Main|Isaac Newton's later life}}
+In the 1690s, Newton wrote a number of [[religious tracts]] dealing with the literal interpretation of the [[Bible]]. [[Henry More]]'s belief in the Universe and rejection of [[Cartesian dualism]] may have influenced Newton's religious ideas. A manuscript he sent to [[John Locke]] in which he disputed the existence of the [[Trinity]] was never published. Later works{{ndash}} ''[[The Chronology of Ancient Kingdoms Amended]]'' (1728) and ''Observations Upon the Prophecies of Daniel and the Apocalypse of St. John'' (1733){{ndash}} were published after his death. He also devoted a great deal of time to [[alchemy]] (see above).&lt;!--old cite was (Westfall 1980, pp. 530–1) &quot;notes that Newton apparently abandoned his alchemical researches&quot;--&gt;
+
+Newton was also a member of the [[Parliament of England]] from 1689 to 1690 and in 1701, but according to some accounts his only comments were to complain about a cold draught in the chamber and request that the window be closed.&lt;ref&gt;White 1997, p. 232&lt;/ref&gt;
+
+Newton moved to London to take up the post of warden of the [[Royal Mint]] in 1696, a position that he had obtained through the patronage of [[Charles Montagu, 1st Earl of Halifax]], then [[Chancellor of the Exchequer]]. He took charge of England's great recoining, somewhat treading on the toes of Master Lucas (and securing the job of deputy [[comptroller]] of the temporary Chester branch for Edmond Halley). Newton became perhaps the best-known [[Master of the Mint]] upon Lucas' death in 1699, a position Newton held until his death.  These appointments were intended as [[sinecure]]s, but Newton took them seriously, retiring from his Cambridge duties in 1701, and exercising his power to reform the currency and punish [[debasement|clippers]] and counterfeiters. As Master of the Mint in 1717 in the [[Anne of Great Britain|&quot;Law of Queen Anne&quot;]] Newton unintentionally moved the [[Pound Sterling]] from the [[silver standard]] to the [[gold standard]] by setting the bimetallic relationship between gold coins and the silver penny in favour of gold. This caused silver sterling coin to be melted and shipped out of Britain. Newton was made President of the [[Royal Society]] in 1703 and an associate of the French [[French Academy of Sciences|Académie des Sciences]]. In his position at the Royal Society, Newton made an enemy of John Flamsteed, the [[Astronomer Royal]], by prematurely publishing Flamsteed's ''Historia Coelestis Britannica'', which Newton had used in his studies.&lt;ref&gt;White 1997, p. 317&lt;/ref&gt;
+
+In April 1705 Queen Anne [[Knight Bachelor|knighted]] Newton during a royal visit to Trinity College, Cambridge. The knighthood is likely to have been motivated by political considerations connected with the Parliamentary election in May 1705, rather than any recognition of Newton's scientific work or services as Master of the Mint.&lt;ref&gt;&quot;The Queen's 'great Assistance' to Newton's election was his knighting, an honor bestowed not for his contributions to science, nor for his service at the Mint, but for the greater glory of party politics in the election of 1705.&quot; Westfall 1994 p 245&lt;/ref&gt;
+
+Towards the end of his life, Newton took up residence at [[Cranbury Park]], near [[Winchester]] with his niece and her husband until his death in 1727.&lt;ref name = &quot;Yonge6&quot;&gt;{{cite web |last=[[Charlotte M. Yonge|Yonge]] |first=Charlotte M. |title=Cranbury and Brambridge|url=http://www.online-literature.com/charlotte-yonge/john-keble/6/ |date= 1898|work= [[John Keble]]'s Parishes – Chapter 6 |publisher= www.online-literature.com|accessdate=23 September 2009}}&lt;/ref&gt; Newton died in his sleep in London on 31 March 1727 &lt;small&gt;&lt;nowiki&gt;[&lt;/nowiki&gt;[[Old Style and New Style dates|OS]]: 20 March 1726&lt;nowiki&gt;]&lt;/nowiki&gt;,&lt;ref name=&quot;OSNS&quot;/&gt;&lt;/small&gt; and was buried in [[Westminster Abbey]]. His half-niece, [[Catherine Barton Conduitt]],&lt;ref&gt;Westfall 1980, p. 44.&lt;/ref&gt; served as his hostess in social affairs at his house on [[Jermyn Street]] in London; he was her &quot;very loving Uncle,&quot;&lt;ref&gt;Westfall 1980, p. 595&lt;/ref&gt; according to his letter to her when she was recovering from [[smallpox]].  Newton, a batchelor, had divested much of his estate to relatives during his last years, and died [[Intestacy|intestate]].
+
+After his death, Newton's body was discovered to have had massive amounts of [[Mercury (element)|mercury]] in it, probably resulting from his alchemical pursuits. [[Mercury poisoning]] could explain Newton's eccentricity in late life.&lt;ref&gt;{{cite web |url=http://scienceworld.wolfram.com/biography/Newton.html |title=Newton, Isaac (1642-1727) |work=Eric Weisstein's World of Biography |accessdate=2006-08-30}}&lt;/ref&gt;
+
+===After death===
+====Fame====
+French mathematician [[Joseph Louis Lagrange|Joseph-Louis Lagrange]] often said that Newton was the greatest genius who ever lived, and once added that he was also &quot;the most fortunate, for we cannot find more than once a system of the world to establish.&quot;&lt;ref&gt;Fred L. Wilson, ''History of Science: Newton'' citing: Delambre, M. &quot;Notice sur la vie et les ouvrages de M. le comte J. L. Lagrange,&quot; ''Oeuvres de Lagrange'' I. Paris, 1867, p. xx.&lt;/ref&gt; English poet [[Alexander Pope]] was moved by Newton's accomplishments to write the famous [[epitaph]]:
+&lt;blockquote&gt;
+Nature and nature's laws lay hid in night;&lt;br /&gt;
+God said &quot;Let Newton be&quot; and all was light.&lt;/blockquote&gt;
+
+Newton himself was rather more modest of his own achievements, famously writing in a letter to [[Robert Hooke]] in February 1676:
+&lt;blockquote&gt;If I have seen further it is by standing on the shoulders of Giants.&lt;ref&gt;Letter from Isaac Newton to Robert Hooke, 5 February 1676, as transcribed in Jean-Pierre Maury (1992) ''Newton: Understanding the Cosmos'', New Horizons&lt;/ref&gt; &lt;ref&gt;Wikipedia ''[[Standing on the shoulders of giants]]'', &lt;/ref&gt;&lt;/blockquote&gt; 
+
+Two writers think the above quote was an attack on Hooke (who was short and hunchbacked), rather than{{ndash}} or in addition to{{ndash}} a statement of modesty.&lt;ref&gt;&quot;The message Newton intends to convey is that, although he may have borrowed from the Ancients, he has no need to steal ideas from a little man like Hooke, with the added implication that Hooke is a mental pygmy as well as a small man physically&quot;, John Gribbin (2002) ''Science: A History 1543-2001'', p 164&lt;/ref&gt;&lt;ref&gt;&quot;In the last sentence Newton revealed the truly spiteful, uncompromising and razor-sharp viciousness of his character, for Hooke ... was so stooped and physically deformed that he had the appearance of a dwarf&quot; White 1997, p187&lt;/ref&gt; As it may well have been known to the two of them that contempoaray poet George Herbert, in his Jacula Prudentum (1651), had written on antiquitic metaphor &quot;A dwarf on a giant's shoulders sees farther of the two&quot;. The two were in a dispute over optical discoveries at the time. The latter interpretation also fits with many of his other disputes over his discoveries, such as the question of who discovered calculus as discussed above.
+
+In a later memoir, Newton wrote:
+&lt;blockquote&gt;I do not know what I may appear to the world, but to myself I seem to have been only like a boy playing on the sea-shore, and diverting myself in now and then finding a smoother pebble or a prettier shell than ordinary, whilst the great ocean of truth lay all undiscovered before me.&lt;ref&gt;Memoirs of the Life, Writings, and Discoveries of Sir Isaac Newton (1855) by Sir David Brewster (Volume II. Ch. 27)&lt;/ref&gt;&lt;/blockquote&gt;
+
+====Commemorations====
+[[Image:Isaac Newton statue.jpg|thumb|Newton statue on display at the [[Oxford University Museum of Natural History]]]]
+
+Newton's monument (1731) can be seen in Westminster Abbey, at the north of the entrance to the choir against the choir screen, near to his tomb. It was executed by the sculptor [[Michael Rysbrack]] (1694–1770) in white and grey marble with design by the architect [[William Kent]] (1685–1748). The monument features a figure of Newton reclining on top of a sarcophagus, his right elbow resting on several of his great books and his left hand pointing to a scroll with a mathematical design. Above him is a pyramid and a celestial globe showing the signs of the Zodiac and the path of the comet of 1680. A relief panel depicts [[putti]] using instruments such as a telescope and prism.&lt;ref name=&quot;wmabbey&quot;&gt;{{cite web|url=http://www.westminster-abbey.org/our-history/people/sir-isaac-newton|title=Famous People &amp; the Abbey: Sir Isaac Newton|publisher=Westminster Abbey|accessdate=2009-11-13}}&lt;/ref&gt; The Latin inscription on the base translates as:
+&lt;blockquote&gt;Here is buried Isaac Newton, Knight, who by a strength of mind almost divine, and mathematical principles peculiarly his own, explored the course and figures of the planets, the paths of comets, the tides of the sea, the dissimilarities in rays of light, and, what no other scholar has previously imagined, the properties of the colours thus produced. Diligent, sagacious and faithful, in his expositions of nature, antiquity and the holy Scriptures, he vindicated by his philosophy the majesty of God mighty and good, and expressed the simplicity of the Gospel in his manners. Mortals rejoice that there has existed such and so great an ornament of the human race! He was born on 25 December 1642, and died on 20 March 1726/7. — Translation from G.L. Smyth, ''The Monuments and Genii of St. Paul's Cathedral, and of Westminster Abbey'' (1826), ii, 703–4.&lt;ref name=&quot;wmabbey&quot;/&gt;
+&lt;/blockquote&gt;
+
+From 1978 until 1988, an image of Newton designed by [[Harry Ecclestone]] appeared on Series D £1 [[Banknotes of the pound sterling|banknotes]] issued by the [[Bank of England]] (the last £1 notes to be issued by the Bank of England). Newton was shown on the reverse of the notes holding a book and accompanied by a telescope, a prism and a map of the [[Solar System]].&lt;ref name=&quot;bankofengland&quot;&gt;{{cite web|url=http://www.bankofengland.co.uk/banknotes/denom_guide/nonflash/1-SeriesD-Revised.htm|title=Withdrawn banknotes reference guide|publisher=Bank of England|accessdate=2009-08-27}}&lt;/ref&gt;
+
+A statue of Isaac Newton, standing over an apple, can be seen at the [[Oxford University Museum of Natural History]].
+
+===In popular culture===
+{{Main|Isaac Newton in popular culture}}
+
+==Religious views==
+{{Main|Isaac Newton's religious views}}
+[[Image:Isaac Newton grave in Westminster Abbey.jpg|thumb|200px|Newton's grave in [[Westminster Abbey]]]]
+Historian [[Stephen Snobelen|Stephen D. Snobelen]] says of Newton, &quot;Isaac Newton was a [[heresy|heretic]]. But ... he never made a public declaration of his private faith — which the orthodox would have deemed extremely radical. He hid his faith so well that scholars are still unravelling his personal beliefs.&quot;&lt;ref name=&quot;heretic&quot;&gt;{{cite journal |last=Snobelen |first=Stephen D. |title=Isaac Newton, heretic: the strategies of a Nicodemite |journal=British Journal for the History of Science |volume=32 |pages=381–419 |year=1999 |url=http://www.isaac-newton.org/heretic.pdf |format=PDF|doi=10.1017/S0007087499003751 }}&lt;/ref&gt; Snobelen concludes that Newton was at least a [[Socinian]] sympathiser (he owned and had thoroughly read at least eight Socinian books), possibly an [[Arianism|Arian]] and almost certainly an [[antitrinitarian]]&lt;ref name=&quot;heretic&quot;/&gt;. In an age notable for its religious intolerance there are few public expressions of Newton's radical views, most notably his refusal to take holy orders and his refusal, on his death bed, to take the [[sacrament]] when it was offered to him.&lt;ref name=&quot;heretic&quot;/&gt;
+
+In a view disputed by Snobelen,&lt;ref name=&quot;heretic&quot;/&gt; T.C. Pfizenmaier argues that Newton held the [[Eastern Orthodox Church|Eastern Orthodox]] view of the Trinity rather than the Western one held by [[Roman Catholic]]s, [[Anglican]]s, and most [[Protestant]]s.&lt;ref&gt;{{cite journal |last=Pfizenmaier |first=T.C. |year=1997 |title=Was Isaac Newton an Arian? |journal=Journal of the History of Ideas |volume=58 |issue=1 |pages=57–80}}&lt;/ref&gt; In his own day, he was also accused of being a [[Rosicrucianism|Rosicrucian]] (as were many in the Royal Society and in the court of Charles II).&lt;ref&gt;{{cite book |last=Yates |first=Frances A. |year=1972 |title=The Rosicrucian Enlightenment |publisher=Routledge |location=London}}&lt;/ref&gt;
+
+Although the laws of motion and universal gravitation became Newton's best-known discoveries, he warned against using them to view the Universe as a mere machine, as if akin to a great clock. He said, &quot;Gravity explains the motions of the planets, but it cannot explain who set the planets in motion. God governs all things and knows all that is or can be done.&quot;&lt;ref name=&quot;tiner&quot;&gt;{{cite book |last=Tiner |first=J.H. |year=1975 |title=Isaac Newton: Inventor, Scientist and Teacher |publisher=Mott Media |location=Milford, Michigan, U.S.}}&lt;/ref&gt;
+
+His scientific fame notwithstanding, Newton's studies of the Bible and of the early [[Church Fathers]] were also noteworthy.  Newton wrote works on [[textual criticism]], most notably ''[[An Historical Account of Two Notable Corruptions of Scripture]]''. He also placed the crucifixion of [[Jesus Christ]] at 3 April, AD 33, which agrees with one traditionally accepted date.&lt;ref&gt;John P. Meier, ''[[John P. Meier#A Marginal Jew: Rethinking the Historical Jesus|A Marginal Jew]]'', v. 1, pp. 382–402 after narrowing the years to 30 or 33, provisionally judges 30 most likely.&lt;/ref&gt; He also attempted, unsuccessfully, to find [[Bible code|hidden messages within the Bible]].
+
+In his own lifetime, Newton wrote more on religion than he did on natural science. He believed in a rationally [[immanent]] world, but he rejected the [[hylozoism]] implicit in [[Leibniz]] and [[Baruch Spinoza]]. Thus, the ordered and dynamically informed Universe could be understood, and must be understood, by an active reason. In his correspondence, Newton claimed that in writing the ''Principia'' &quot;I had an eye upon such Principles as might work with considering men for the belief of a Deity&quot;.&lt;ref&gt;. Newton to [[Richard Bentley]] 10 December 1692, in Turnbull et al. (1959–77), vol 3, p. 233.&lt;/ref&gt;  He saw evidence of design in the system of the world: &quot;Such a wonderful uniformity in the planetary system must be allowed the effect of choice&quot;. But Newton insisted that divine intervention would eventually be required to reform the system, due to the slow growth of instabilities.&lt;ref&gt;Opticks, 2nd Ed 1706. Query 31.&lt;/ref&gt; For this Leibniz
+lampooned him: &quot;God Almighty wants to wind up his watch from time to time: otherwise it would cease to move. He had not, it seems, sufficient foresight to make it a perpetual motion.&quot;&lt;ref&gt;H. G. Alexander (ed) ''The Leibniz-Clarke correspondence'', [[Manchester University Press]], 1998, p. 11.&lt;/ref&gt;  Newton's position was vigorously defended by his follower [[Samuel Clarke]] in a [[Leibniz-Clarke correspondence|famous correspondence]].
+
+===Effect on religious thought===
+Newton and [[Robert Boyle]]'s mechanical philosophy was promoted by [[rationalist]] [[pamphleteer]]s as a viable alternative to the [[pantheism|pantheists]] and [[enthusiasm|enthusiasts]], and was accepted hesitantly by orthodox preachers as well as dissident preachers like the [[latitudinarian]]s.&lt;ref&gt;{{cite book |last=Jacob |first=Margaret C. |year=1976 |title=The Newtonians and the English Revolution: 1689–1720 |publisher=Cornell University Press |pages=37,44}}&lt;/ref&gt; Thus, the clarity and simplicity of science was seen as a way to combat the emotional and [[metaphysics|metaphysical]] superlatives of both [[superstition|superstitious]] enthusiasm and the threat of [[atheism]],&lt;ref&gt;{{cite book |last=Westfall |first=Richard S. |year=1958 |title=Science and Religion in Seventeenth-Century England |publisher=Yale University Press |location=New Haven |page=200}}&lt;/ref&gt; and, at the same time, the second wave of English [[deism|deists]] used Newton's discoveries to demonstrate the possibility of a &quot;Natural Religion&quot;.
+
+[[Image:Newton-WilliamBlake.jpg|thumb|left|&quot;Newton&quot;, by [[William Blake]]; here, Newton is depicted as a &quot;divine geometer&quot;.]]
+
+The attacks made against pre-[[Age of Enlightenment|Enlightenment]] &quot;magical thinking&quot;, and the [[Christian mysticism|mystical elements of Christianity]], were given their foundation with Boyle's mechanical conception of the Universe. Newton gave Boyle's ideas their completion through [[mathematical proof]]s and, perhaps more importantly, was very successful in popularising them.&lt;ref&gt;{{cite book |last=Haakonssen |first=Knud |editor=Martin Fitzpatrick ed. |chapter=The Enlightenment, politics and providence: some Scottish and English comparisons |title=Enlightenment and Religion: Rational Dissent in eighteenth-century Britain |publisher=Cambridge University Press |location=Cambridge |page=64}}&lt;/ref&gt; Newton refashioned the world governed by an interventionist God into a world crafted by a God that designs along rational and universal principles.&lt;ref&gt;{{cite book |last=Frankel |first=Charles |year=1948 |title=The Faith of Reason: The Idea of Progress in the French Enlightenment |publisher=King's Crown Press |location=New York |page=1}}&lt;/ref&gt; These principles were available for all people to discover, allowed people to pursue their own aims fruitfully in this life, not [[afterlife|the next]], and to perfect themselves with their own rational powers.&lt;ref&gt;{{cite book |last=Germain |first=Gilbert G. |title=A Discourse on Disenchantment: Reflections on Politics and Technology |page=28}}&lt;/ref&gt;
+
+Newton saw God as the master creator whose existence could not be denied in the face of the grandeur of all creation.&lt;ref&gt;Principia, Book III; cited in; Newton’s Philosophy of Nature: Selections from his writings, p. 42, ed. H.S. Thayer, Hafner Library of Classics, NY, 1953.&lt;/ref&gt;&lt;ref&gt;A Short Scheme of the True Religion, manuscript quoted in Memoirs of the Life, Writings and Discoveries of Sir Isaac Newton by Sir David Brewster, Edinburgh, 1850; cited in; ibid, p. 65.&lt;/ref&gt;&lt;ref&gt;Webb, R.K. ed. Knud Haakonssen. “The emergence of Rational Dissent.” Enlightenment and Religion: Rational Dissent in eighteenth-century Britain. Cambridge University Press, Cambridge: 1996. p19.&lt;/ref&gt; His spokesman, Clarke, rejected Leibniz' [[theodicy]] which cleared God from the responsibility for ''[[Problem of evil|l'origine du mal]]'' by making God removed from participation in his creation, since as Clarke pointed out, such a deity would be a king in name only, and but one step away from atheism.&lt;ref&gt;H. G. Alexander (ed) ''The Leibniz-Clarke correspondence'', Manchester University Press, 1998, p. 14.&lt;/ref&gt;  But the unforeseen [[Christian theology|theological]] consequence of the success of Newton's system over the next century was to reinforce the [[Deism|deist]] position advocated by Leibniz.&lt;ref&gt; Westfall, Richard S. Science and Religion in Seventeenth-Century England. p201.&lt;/ref&gt;
+The understanding of the world was now brought down to the level of simple human reason, and humans, as Odo Marquard argued, became responsible for the correction and elimination of evil.&lt;ref&gt;Marquard, Odo. &quot;Burdened and Disemburdened Man and the Flight into Unindictability,&quot; in Farewell to Matters of Principle. Robert M. Wallace trans. London: Oxford UP, 1989.&lt;/ref&gt;
+
+On the other hand, latitudinarian and Newtonian ideas taken too far resulted in the [[millenarian]]s, a religious faction dedicated to the concept of a mechanical Universe, but finding in it the same enthusiasm and mysticism that the Enlightenment had fought so hard to extinguish.&lt;ref&gt;Jacob, Margaret C. The Newtonians and the English Revolution: 1689–1720. p100–101.&lt;/ref&gt;
+
+===Views of the end of the world===
+{{See also|Isaac Newton's occult studies|eschatology}}
+
+In a manuscript he wrote in 1704 in which he describes his attempts to extract scientific information from the Bible, he estimated that the world would end no earlier than [[2060]]. In predicting this he said, &quot;This I mention not to assert when the time of the end shall be, but to put a stop to the rash conjectures of fanciful men who are frequently predicting the time of the end, and by doing so bring the sacred prophesies into discredit as often as their predictions fail.&quot;&lt;ref&gt;{{cite web |title=Papers Show Isaac Newton's Religious Side, Predict Date of Apocalypse |publisher=The Associated Press |date=19 June 2007 |url=http://www.christianpost.com/article/20070619/28049_Papers_Show_Isaac_Newton%27s_Religious_Side%2C_Predict_Date_of_Apocalypse.htm|accessdate=2007-08-01}}&lt;/ref&gt;
+
+==Enlightenment philosophers==
+[[Age of Enlightenment|Enlightenment]] philosophers chose a short history of scientific predecessors — Galileo, Boyle, and Newton principally — as the guides and guarantors of their applications of the singular concept of [[Nature]] and [[Natural law|Natural Law]] to every physical and social field of the day. In this respect, the lessons of history and the social structures built upon it could be discarded.&lt;ref&gt;Cassels, Alan. Ideology and International Relations in the Modern World. p2.&lt;/ref&gt;
+
+It was Newton's conception of the Universe based upon Natural and rationally understandable laws that became one of the seeds for Enlightenment [[ideology]].&lt;ref&gt;&quot;Although it was just one of the many factors in the Enlightment, the success of Newtonian physics in providing a mathematical description of an ordered world clearly played a big part in the flowering of this movement in the eighteenth century&quot; John Gribbin (2002) ''Science: A History 1543-2001'', p 241&lt;/ref&gt; Locke and [[Voltaire]] applied concepts of Natural Law to political systems advocating intrinsic rights; the [[physiocrat]]s and [[Adam Smith]] applied Natural conceptions of [[psychology]] and self-interest to economic systems and the [[sociology|sociologists]] criticised the current [[social order]] for trying to fit history into Natural models of [[progress (philosophy)|progress]].  [[Monboddo]] and [[Samuel Clarke]] resisted elements of Newton's work, but eventually rationalised it to conform with their strong religious views of nature.
+
+==Newton and the counterfeiters==
+As warden of the [[Royal Mint]], Newton estimated that 20% of the coins taken in during The [[Great Recoinage]] were [[counterfeit]]. Counterfeiting was [[High treason in the United Kingdom|high treason]], punishable by being [[hanged, drawn and quartered]]. Despite this, convictions of the most flagrant criminals could be extremely difficult to achieve; however, Newton proved to be equal to the task.&lt;ref&gt;White 1997, p. 259&lt;/ref&gt; Disguised as an habitué of bars and taverns, he gathered much of that evidence himself.&lt;ref&gt;White 1997, p. 267&lt;/ref&gt; For all the barriers placed to prosecution, and separating the branches of government, [[English law]] still had ancient and formidable customs of authority. Newton was made a [[justice of the peace]] and between June 1698 and Christmas 1699 conducted some 200 cross-examinations of witnesses, informers and suspects. Newton won his convictions and in February 1699, he had ten prisoners waiting to be executed.{{Citation needed|date=March 2009}}
+
+One of Newton's cases as the King's attorney was against [[William Chaloner]].&lt;ref name=&quot;White 1997, p 269&quot;&gt;White 1997, p 269&lt;/ref&gt; Chaloner's schemes included setting up phoney conspiracies of [[Roman Catholic Church|Catholics]] and then turn in the hapless conspirators whom he entrapped. Chaloner made himself rich enough to posture as a gentleman. Petitioning Parliament, Chaloner accused the Mint of providing tools to counterfeiters (a charge also made by others). He proposed that he be allowed to inspect the Mint's processes in order to improve them. He petitioned Parliament to adopt his plans for a coinage that could not be counterfeited, while at the same time striking false coins.&lt;ref&gt;Westfall 1994, p 229&lt;/ref&gt; Newton put Chaloner on trial for counterfeiting and had him sent to Newgate Prison in September 1697, but Chaloner had friends in high places who helped him secure an acquittal and his release.&lt;ref name=&quot;White 1997, p 269&quot;/&gt; Newton put him on trial a second time with conclusive evidence. Chaloner was convicted of high treason and hanged, drawn and quartered on 23 March 1699 at [[Tyburn, London|Tyburn gallows]].&lt;ref&gt;Westfall 1980, pp. 571–5&lt;/ref&gt;
+
+==Newton's laws of motion==
+{{Classical mechanics|cTopic=Scientists}}
+{{Main|Newton's laws of motion}}
+
+The famous three laws of motion (stated in modernized form):
+
+''Newton's First Law'' (also known as the Law of [[Inertia]]) states that an object at rest tends to stay at rest and that an object in uniform motion tends to stay in uniform motion unless acted upon by a net external force.
+
+''Newton's Second Law'' states that an applied force, &lt;math&gt;\vec{F}&lt;/math&gt;, on an object equals the rate of change of its momentum, &lt;math&gt;\vec{p}&lt;/math&gt;, with time. Mathematically, this is expressed as
+:&lt;math&gt; \vec F = \frac{\mathrm{d}\vec p}{\mathrm{\mathrm{d}}t} \, = \, \frac{\mathrm{d}}{\mathrm{d}t} (m \vec v) \, = \, \vec v \, \frac{\mathrm{d}m}{\mathrm{d}t} + m \, \frac{\mathrm{d}\vec v}{\mathrm{d}t} \,.&lt;/math&gt;
+
+Since the second law applies to an object with constant mass (d''m''/d''t'' = 0), the first term vanishes, and by substitution using the definition of [[acceleration]], the equation can be written in the iconic form
+
+:&lt;math&gt; \vec F = m \, \vec a \ .&lt;/math&gt;
+
+The first and second laws represent a break with the physics of [[Aristotle]], in which it was believed that a force was necessary in order to maintain motion. They state that a force is only needed in order to ''change'' an object's state of motion. The SI unit of force is the [[newton (unit)|newton]], named in Newton's honour.
+
+''Newton's Third Law'' states that for every action there is an equal and opposite reaction.  This means that any force exerted onto an object has a counterpart force that is exerted in the opposite direction back onto the first object.  A common example is of two [[ice skater]]s pushing against each other and sliding apart in opposite directions.  Another example is the [[recoil]] of a [[firearm]], in which the force propelling the [[bullet]] is exerted equally back onto the gun and is felt by the shooter.  Since the objects in question do not necessarily have the same mass, the resulting acceleration of the two objects can be different (as in the case of firearm recoil).
+
+Unlike Aristotle's, Newton's physics is meant to be universal. For example, the second law applies both to a planet and to a falling stone.
+
+The [[Euclidean vector|vector]] nature of the second law addresses the geometrical relationship between the direction of the force and the manner in which the object's momentum changes. Before Newton, it had typically been assumed that a planet orbiting the sun would need a forward force to keep it moving. Newton showed instead that all that was needed was an inward attraction from the sun. Even many decades after the publication of the ''[[Philosophiæ Naturalis Principia Mathematica|Principia]]'', this counterintuitive idea was not universally accepted, and many scientists preferred [[Descartes]]' theory of vortices.&lt;ref&gt;Ball 1908, p. 337&lt;/ref&gt;
+
+==Newton's apple==
+{{double image stack|right|Newton's tree, Botanic Gardens, Cambridge.JPG|Newtons apple.jpg|150|Reputed descendants of Newton's [[apple tree]], at the [[Cambridge University Botanic Garden]] and the [[Instituto Balseiro]] library garden}}
+Newton himself often told the story that he was inspired to formulate his theory of gravitation by watching the fall of an apple from a tree.&lt;ref&gt;White 1997, p. 86&lt;/ref&gt;
+
+Cartoons have gone further to suggest the apple actually hit Newton's head, and that its impact somehow made him aware of the force of gravity.  It is known from his notebooks that Newton was grappling in the late 1660s with the idea that terrestrial gravity extends, in an inverse-square proportion, to the Moon; however it took him two decades to develop the full-fledged theory.&lt;ref&gt; I. Bernard Cohen and George E. Smith, eds. ''The Cambridge Companion to Newton'' (2002) p. 6 &lt;/ref&gt; John Conduitt, Newton's assistant at the Royal Mint and husband of Newton's niece, described the event when he wrote about Newton's life:
+
+&lt;blockquote&gt;In the year 1666 he retired again from Cambridge to his mother in Lincolnshire. Whilst he was pensively meandering in a garden it came into his thought that the power of gravity (which brought an apple from a tree to the ground) was not limited to a certain distance from earth, but that this power must extend much further than was usually thought. Why not as high as the Moon said he to himself &amp; if so, that must influence her motion &amp; perhaps retain her in her orbit, whereupon he fell a calculating what would be the effect of that supposition.&lt;ref&gt;{{cite web |url=http://www.newtonproject.ic.ac.uk/texts/viewtext.php?id=THEM00167&amp;mode=diplomatic |last=Conduitt|first=John |title=Keynes Ms. 130.4:Conduitt's account of Newton's life at Cambridge|work=Newtonproject|publisher=Imperial College London|accessdate=2006-08-30}}&lt;/ref&gt;&lt;/blockquote&gt;
+
+The question was not whether gravity existed, but whether it extended so far from Earth that it could also be the force holding the moon to its orbit. Newton showed that if the force decreased as the inverse square of the distance, one could indeed calculate the Moon's orbital period, and get good agreement. He guessed the same force was responsible for other orbital motions, and hence named it &quot;universal gravitation&quot;.
+
+A contemporary writer, [[William Stukeley]], recorded in his ''Memoirs of Sir Isaac Newton's Life'' a conversation with Newton in Kensington on 15 April 1726, in which Newton recalled &quot;when formerly, the notion of gravitation came into his mind. It was occasioned by the fall of an apple, as he sat in contemplative mood. Why should that apple always descend perpendicularly to the ground, thought he to himself. Why should it not go sideways or upwards, but constantly to the Earth's centre.&quot; In similar terms, Voltaire wrote in his ''Essay on Epic Poetry'' (1727), &quot;Sir Isaac Newton walking in his gardens, had the first thought of his system of gravitation, upon seeing an apple falling from a tree.&quot;
+
+Various trees are claimed to be &quot;the&quot; apple tree which Newton describes. The King's School, Grantham, claims that the tree was purchased by the school, uprooted and transported to the headmaster's garden some years later. The staff of the [now] [[National Trust for Places of Historic Interest or Natural Beauty|National Trust]]-owned Woolsthorpe Manor dispute this, and claim that a tree present in their gardens is the one described by Newton. A descendant of the original tree can be seen growing outside the main gate of Trinity College, Cambridge, below the room Newton lived in when he studied there. The National Fruit Collection at Brogdale&lt;ref&gt;{{cite web|url=http://www.brogdale.org.uk/nfc_home.php |title=Brogdale - Home of the National Fruit Collection |publisher=Brogdale.org.uk |date= |accessdate=2008-12-20}}&lt;/ref&gt; can supply grafts from their tree, which appears identical to [[Flower of Kent]], a coarse-fleshed cooking variety.&lt;ref&gt;{{cite web|url=http://www.brogdale.org.uk/image1.php?varietyid=1089 |title=From the National Fruit Collection: Isaac Newton's Tree|accessdate=2009-01-10}}&lt;/ref&gt;
+
+==His writings==
+* ''[[Method of Fluxions]]'' (1671)
+*''Of Natures Obvious Laws &amp; Processes in Vegetation'' (unpublished, c. 1671–75)&lt;ref&gt;[http://webapp1.dlib.indiana.edu/newton/index.jsp Newton's alchemical works] transcribed and online at [[Indiana University (Bloomington)|Indiana University]] retrieved 11 January 2007&lt;/ref&gt;
+* ''[[De Motu Corporum in Gyrum]]'' (1684)
+* ''[[Philosophiae Naturalis Principia Mathematica]]'' (1687)
+* ''[[Opticks]]'' (1704)
+* ''[http://www.pierre-marteau.com/editions/1701-25-mint-reports.html Reports as Master of the Mint]'' (1701–25)
+* ''[[Arithmetica Universalis]]'' (1707)
+* ''The System of the World'', ''Optical Lectures'', ''[[The Chronology of Ancient Kingdoms|The Chronology of Ancient Kingdoms, (Amended)]]'' and ''De mundi systemate'' (published posthumously in 1728)
+* ''Observations on Daniel and The Apocalypse of St. John'' (1733)
+* ''[[An Historical Account of Two Notable Corruptions of Scripture]]'' (1754)
+
+==See also==
+{{col-begin}}
+{{col-break}}
+*[[De Motu (Berkeley's essay)]]
+* [[Difference operator#Newton series]]
+* ''[[Elements of the Philosophy of Newton]]''
+* [[Gauss–Newton algorithm]]
+* [[History of calculus]]
+* [[Ismaël Bullialdus]] 
+* [[Leibniz and Newton calculus controversy]]
+* [[List of multiple discoveries#17th century]]
+{{col-break}}
+* [[Newton disc]]
+* [[Newton fractal]]
+* [[Newton polygon]]
+* [[Newton polynomial]]
+* [[Newton (unit)]]
+* [[Newton's cannonball]]
+* [[Newton's cradle]]
+* [[Newton's inequalities]]
+{{col-break}}
+* [[Newton's notation]]
+* [[Newton's reflector]]
+* [[Newton's theorem of revolving orbits]]
+* [[Newton–Cotes formulas]]
+* [[Newton–Euler equations]]
+* [[Newtonianism]]
+* [[Schrödinger–Newton equations]]
+* [[Spalding Gentlemen’s Society]]
+{{col-end}}
+
+==Footnotes and references==
+{{Reflist|3}}
+
+==References==
+* {{cite book|last=Ball|first=W.W. Rouse|title=A Short Account of the History of Mathematics|location=New York|publisher=Dover|year=1908}}
+* {{cite book |last=Christianson|first=Gale|title=In the Presence of the Creator: Isaac Newton &amp; His Times|location=New York|publisher=Free Press|year=1984|isbn=0-02-905190-8}} This well documented work provides, in particular, valuable information regarding Newton's knowledge of [[Patristics]]
+* {{cite journal |last=Craig |first=John |title=Isaac Newton – Crime Investigator |journal=Nature |year=1958 |volume=182 |page=149{{ndash}} 152 |doi=10.1038/182149a0 |pages=149}}
+* {{cite journal |last=Craig |first=John |title=Isaac Newton and the Counterfeiters |journal=Notes and Records of the Royal Society of London |volume=18 |year=1963 |page=136{{ndash}} 145 |doi=10.1098/rsnr.1963.0017 |pages=136 }}
+* {{cite book |authorlink=Richard S. Westfall |last=Westfall |first=Richard S. |title=Never at Rest |publisher=Cambridge University Press |year=1980, 1998 |isbn=0-521-27435-4 }}
+*{{cite book|last=Westfall|first=Richard S.|title=The Life of Isaac Newton|publisher=Cambridge University Press|year=1994|isbn=0521477379}}
+*{{cite book |authorlink=Michael White (author) |title=Isaac Newton: The Last Sorcerer |first=Michael |last=White |publisher=Fourth Estate Limited |year=1997 |isbn=1-85702-416-8}}
+
+==Further reading==
+* {{cite book |last=Andrade |first=E. N. De C. |title=Isaac Newton  |publisher=Chanticleer Press |location=New York  |year=1950 |pages=}}
+*Bardi, Jason Socrates.  ''The Calculus Wars: Newton, Leibniz, and the Greatest Mathematical Clash of All Time.'' (2006). 277 pp.  [http://www.amazon.com/dp/1560259922 excerpt and text search]
+* {{cite book | author = Bechler, Zev | title = Newton's Physics and the Conceptual Structure of the Scientific Revolution | year = 1991 | publisher = Springer | isbn = 0792310543}}.
+* Berlinski, David.  ''Newton's Gift: How Sir Isaac Newton Unlocked the System of the World.'' (2000). 256 pp.  [http://www.amazon.com/dp/0743217764 excerpt and text search] ISBN 0-684-84392-7
+* Buchwald, Jed Z. and Cohen, I. Bernard, eds.  ''Isaac Newton's Natural Philosophy.'' [[MIT Press]], 2001. 354 pp. [http://www.amazon.com/dp/0262524252 excerpt and text search]
+* {{cite journal | author = Casini, P. | title = Newton's Principia and the Philosophers of the Enlightenment | journal = Notes and Records of the Royal Society of London | year = 1988 | volume = 42 | issue = 1 | pages = 35–52 | issn = 0035–9149 | url = http://links.jstor.org/sici?sici=0035-9149%28198801%2942%3A1%3C35%3AN%27ATPO%3E2.0.CO%3B2-H|doi= 10.1098/rsnr.1988.0006}}
+* {{cite book | author = Christianson, Gale E. | title = Isaac Newton and the Scientific Revolution | publisher = [[Oxford University Press]] | year = 1996 | isbn = 019530070X}} See [http://www.amazon.com/dp/019530070X this site] for excerpt and text search.
+* {{cite book |last=Christianson |first=Gale |title=In the Presence of the Creator: Isaac Newton &amp; His Times |location=New York |publisher=Free Press |year=1984 |isbn=0-02-905190-8 }}
+* Cohen, I. Bernard and Smith, George E., ed.  ''The Cambridge Companion to Newton.'' (2002). 500 pp. focuses on philosophical issues only; [http://www.amazon.com/dp/0521656966 excerpt and text search]; [http://www.questia.com/read/105054986 complete edition online]
+* {{cite book |author=Cohen, I. B. |title=The Newtonian Revolution |year=1980 |location= Cambridge |publisher=Cambridge University Press}}
+* {{cite book |author=Craig, John |title=Newton at the Mint |year=1946 |publisher=Cambridge University Press |location=Cambridge, England }}
+* {{cite book |author=Dampier, William C. |coauthors=Dampier, M. |title=Readings in the Literature of Science |publisher=Harper &amp; Row |location=New York |year=1959 }}
+* {{cite book |author=[[Richard de Villamil|de Villamil, Richard]] |title=Newton, the Man |publisher=G.D. Knox |location=London |year=1931}} – Preface by [[Albert Einstein]]. Reprinted by Johnson Reprint Corporation, New York (1972).
+* {{cite book |author=Dobbs, B. J. T. |title=The Foundations of Newton's Alchemy or &quot;The Hunting of the Greene Lyon&quot; |year=1975 |publisher=Cambridge University Press | place = Cambridge }}
+* {{cite book |author=Gjertsen, Derek |title=The Newton Handbook |publisher=Routledge &amp; Kegan Paul |location=London |year=1986 |isbn=0-7102-0279-2 }}
+* {{cite book|author=Gleick, James|title=Isaac Newton|publisher=Alfred A. Knopf|year=2003 |isbn=0375422331}}
+* {{cite journal |author=Halley, E. |title=Review of Newton's Principia |year=1687 |journal=Philosophical Transactions |volume=186 |page=291{{ndash}} 297}}
+* [[Stephen Hawking|Hawking, Stephen]], ed.  ''On the Shoulders of Giants''.  ISBN 0-7624-1348-4 Places selections from Newton's ''Principia'' in the context of selected writings by [[Copernicus]], [[Johannes Kepler|Kepler]], [[Galileo Galilei|Galileo]] and [[Albert Einstein|Einstein]]
+* {{cite book |last=Herivel, J. W. |title=The Background to Newton's Principia. A Study of Newton's Dynamical Researches in the Years 1664–84 | publisher = Clarendon Press | location = Oxford | year = 1965 }}
+* {{cite book |author=[[John Maynard Keynes|Keynes, John Maynard]] |title=Essays in Biography |publisher=W. W. Norton &amp; Co |year=1963 |isbn=0-393-00189-X}} Keynes took a close interest in Newton and owned many of Newton's private papers.
+* {{cite book |author=Koyré, A. |title=Newtonian Studies |location=Chicago |publisher=University of Chicago Press |year=1965 }}
+* Newton, Isaac. ''Papers and Letters in Natural Philosophy'', edited by [[I. Bernard Cohen]]. [[Harvard University Press]], 1958,1978. ISBN 0-674-46853-8.
+* Newton, Isaac (1642–1727). ''The Principia'': a new Translation, Guide by I. Bernard Cohen ISBN 0-520-08817-4 University of California (1999)
+* {{cite book |author=Pemberton, H. |title=A View of Sir Isaac Newton's Philosophy |publisher=S. Palmer |location=London |year=1728 }}
+* {{cite book |last=Shamos, Morris H. |title=Great Experiments in Physics |location=New York |publisher=Henry Holt and Company, Inc. |year=1959 }}
+* Shapley, Harlow, S. Rapport, and H. Wright. ''A Treasury of Science''; &quot;Newtonia&quot; pp.&amp;nbsp;147–9; &quot;Discoveries&quot; pp.&amp;nbsp;150–4. Harper &amp; Bros., New York, (1946).
+* {{cite book | author = Simmons, J. | title = The Giant Book of Scientists {{ndash}} The 100 Greatest Minds of all Time | location = Sydney | publisher = The Book Company | year = 1996}}
+* {{citation |last=Stukeley |first=W. |title=Memoirs of Sir Isaac Newton's Life |publisher=Taylor and Francis | place = London |year=1936}} (edited by A. H. White; originally published in 1752)
+* {{cite book |author=Westfall, R. S. |title=Force in Newton's Physics: The Science of Dynamics in the Seventeenth Century |location=London |publisher=Macdonald |year=1971 }}
+
+===Religion===
+* Dobbs, Betty Jo Tetter. ''The Janus Faces of Genius: The Role of Alchemy in Newton's Thought.'' (1991), links the alchemy to Arianism
+* Force, James E., and Richard H. Popkin, eds. ''Newton and Religion: Context, Nature, and Influence.'' (1999), 342pp . Pp. xvii + 325. 13 papers by scholars using newly opened manuscripts
+* Ramati, Ayval. &quot;The Hidden Truth of Creation: Newton's Method of Fluxions&quot; ''British Journal for the History of Science'' 34: 417–438. [http://www.jstor.org/stable/4028372 in JSTOR], argues that his calculus had a theological basis
+*Snobelen, Stephen &quot;'God of Gods, and Lord of Lords': The Theology of Isaac Newton's General Scholium to the Principia,&quot; ''Osiris,'' 2nd Series, Vol. 16, (2001), pp.&amp;nbsp;169–208 [http://www.jstor.org/stable/301985 in JSTOR]
+* Snobelen, Stephen D. &quot;Isaac Newton, Heretic: The Strategies of a Nicodemite,&quot; ''British Journal for the History of Science'' 32: 381–419. [http://www.jstor.org/stable/4027945  in JSTOR]
+* Pfizenmaier, Thomas C. &quot;Was Isaac Newton an Arian?,&quot; ''Journal of the History of Ideas,'' Vol. 58, No. 1 (January, 1997), pp.&amp;nbsp;57–80 [http://www.jstor.org/stable/3653988 in JSTOR]
+* Westfall, Richard S.  ''Never at Rest: A Biography of Isaac Newton.'' 2 vol. Cambridge U. Press, 1983. 908 pp.  the major scholarly biography [http://books.google.com/books?id=3ngEugMMa9YC&amp;printsec=frontcover excerpt and text search]
+* Wiles, Maurice. ''Archetypal Heresy. Arianism through the Centuries.'' (1996) 214pp, with chapter 4 on 18th century England; pp 77–93 on Newton [http://books.google.com/books?id=DGksMzk37hMC&amp;printsec=frontcover&amp;dq=%22Arianism+through+the+Centuries%22 excerpt and text search],
+
+===Primary sources===
+* Newton, Isaac.  ''The Principia: Mathematical Principles of Natural Philosophy.'' [[University of California Press]], (1999). 974 pp.
+** Brackenridge, J. Bruce.  ''The Key to Newton's Dynamics: The Kepler Problem and the Principia: Containing an English Translation of Sections 1, 2, and 3 of Book One from the First (1687) Edition of Newton's Mathematical Principles of Natural Philosophy.'' University of California Press, 1996. 299 pp.
+* Newton, Isaac.  ''The Optical Papers of Isaac Newton. Vol. 1: The Optical Lectures, 1670–1672.'' Cambridge U. Press, 1984. 627 pp.
+** Newton, Isaac.  ''Opticks'' (4th ed. 1730) [http://books.google.com/books?id=GnAFAAAAQAAJ&amp;dq=newton+opticks&amp;pg=PP1&amp;ots=Nnl345oqo_&amp;sig=0mBTaXUI_K6w-JDEu_RvVq5TNqc&amp;prev=http://www.google.com/search%3Fq%3Dnewton%2Bopticks%26rls%3Dcom.microsoft:en-us:IE-SearchBox%26ie%3DUTF-8%26oe%3DUTF-8%26sourceid%3Die7%26rlz%3D1I7GGLJ&amp;sa=X&amp;oi=print&amp;ct=title&amp;cad=one-book-with-thumbnail online edition]
+** Newton, I. (1952). Opticks, or A Treatise of the Reflections, Refractions, Inflections &amp; Colours of Light. New York: Dover Publications.
+* Newton, I. ''Sir Isaac Newton's Mathematical Principles of Natural Philosophy and His System of the World,'' tr. A. Motte, rev. [[Florian Cajori]]. Berkeley: University of California Press. (1934).
+* {{cite book |author=[[Whiteside, D. T.]] |title=The Mathematical Papers of Isaac Newton |location=Cambridge |publisher=Cambridge University Press |year=1967–82}} – 8 volumes
+* Newton, Isaac.  ''The correspondence of Isaac Newton,'' ed. H. W. Turnbull and others, 7 vols. (1959–77).
+* ''Newton's Philosophy of Nature: Selections from His Writings'' edited by H. S. Thayer, (1953), [http://www.questia.com/read/5876270 online edition]
+* Isaac Newton, Sir;  J Edleston;  [[Roger Cotes]], [http://books.google.com/books?as_brr=1&amp;id=OVPJ6c9_kKgC&amp;vid=OCLC14437781&amp;dq=%22isaac+newton%22&amp;jtp=I ''Correspondence of Sir Isaac Newton and Professor Cotes, including letters of other eminent men''], London, John W. Parker, West Strand; Cambridge, John Deighton, 1850. – Google Books
+* Maclaurin, C. (1748). An Account of Sir Isaac Newton's Philosophical Discoveries, in Four Books. London: A. Millar and J. Nourse.
+* Newton, I. (1958). Isaac Newton's Papers and Letters on Natural Philosophy and Related Documents, eds. I. B. Cohen and R. E. Schofield. Cambridge: Harvard University Press.
+* Newton, I. (1962). The Unpublished Scientific Papers of Isaac Newton: A Selection from the Portsmouth Collection in the University Library, Cambridge, ed. A. R. Hall and M. B. Hall. Cambridge: Cambridge University Press.
+*Newton, I. (1975). Isaac Newton's 'Theory of the Moon's Motion' (1702). London: Dawson.
+
+==External links==
+{{Spoken Wikipedia|Isaac_Newton.ogg|2008-07-30}}
+{{sisterlinks|s=Author:Isaac Newton}}
+=== Writings by Newton ===
+*[http://www.newtonproject.sussex.ac.uk/prism.php?id=43 Newton's works - full texts, at the Newton Project]
+*{{gutenberg author|id=Isaac_Newton|name=Isaac Newton}}
+*[http://rack1.ul.cs.cmu.edu/is/newton/ Newton's Principia – read and search]
+*[http://www.earlymoderntexts.com/f_newton.html ''Descartes, Space, and Body''], an excerpt from ''De Gravitatione et Aequipondio Fluidorum'', with annotations by Jonathan Bennett
+*[http://www.archive.org/stream/opticksoratreat00newtgoog#page/n6/mode/2up Opticks, or a Treatise of the Reflections, Refractions, Inflexions and Colours of Light]'', full text on [[archive.org]]
+=== Misc ===
+*{{Wikisource1911Enc Citation|Newton, Sir Isaac}}
+*[http://www-history.mcs.st-andrews.ac.uk/Mathematicians/Newton.html Newton biography (University of St Andrews)]
+*[http://scienceworld.wolfram.com/biography/Newton.html ScienceWorld biography]
+*[http://www.chlt.org/sandbox/lhl/dsb/page.50.a.php Dictionary of Scientific Biography]
+*[http://www.newtonproject.sussex.ac.uk/prism.php?id=1 The Newton Project]
+*[http://www.isaacnewton.ca The Newton Project - Canada]
+*[http://www.skepticreport.com/predictions/newton.htm Rebuttal of Newton's astrology]
+*[http://www.galilean-library.org/snobelen.html Newton's Religious Views Reconsidered]
+*[http://www.pierre-marteau.com/editions/1701-25-mint-reports.html Newton's Royal Mint Reports]
+*[http://www.pbs.org/wgbh/nova/newton/ Newton's Dark Secrets] [[Nova (TV series)|NOVA]] TV programme
+*from The [[Stanford Encyclopedia of Philosophy]]:
+**[http://plato.stanford.edu/entries/newton/ Isaac Newton], by George Smith
+**[http://plato.stanford.edu/entries/newton-principia/ Newton's Philosophiae Naturalis Principia Mathematica], by George Smith
+**[http://plato.stanford.edu/entries/newton-philosophy/ Newton's Philosophy], by Andrew Janiak
+**[http://plato.stanford.edu/entries/newton-stm/ Newton's views on space, time, and motion], by Robert Rynasiewicz
+*[http://www.tqnyc.org/NYC051308/index.htm Newton's Castle] Educational material
+*[http://www.dlib.indiana.edu/collections/newton The Chymistry of Isaac Newton] Research on his Alchemical writings
+*[http://www.fmalive.com/ FMA Live! Program for teaching Newton's laws to kids]
+*[http://www.adherents.com/people/pn/Isaac_Newton.html Newton's religious position]
+*[http://hss.fullerton.edu/philosophy/GeneralScholium.htm The &quot;General Scholium&quot; to Newton's Principia]
+*Kandaswamy, Anand M. [http://www.math.rutgers.edu/courses/436/Honors02/newton.html ''The Newton/Leibniz Conflict in Context'']
+*[http://www.phaser.com/modules/historic/newton/index.html Newton's First ODE] – A study by on how Newton approximated the solutions of a first-order ODE using infinite series
+*{{MacTutor Biography|id=Newton}}
+*{{MathGenealogy|id=74313}}
+*[http://www.ltrc.mcmaster.ca/newton/ The Mind of Isaac Newton] Images, audio, animations and interactive segments
+{{start box}}
+{{s-par|en}}
+{{succession box | before= [[Robert Brady (MP)|Robert Brady]] | title=[[Member of Parliament]] for [[Cambridge University (UK Parliament constituency)|Cambridge University]]&lt;br /&gt;&lt;small&gt;with [[Sir Robert Sawyer|Robert Sawyer]] | after=[[Edward Finch (composer)|Edward Finch]]| years=1689–1690}}
+{{succession box | before= [[Anthony Hammond]] | title=[[Member of Parliament]] for [[Cambridge University (UK Parliament constituency)|Cambridge University]]&lt;br /&gt;&lt;small&gt;with [[Henry Boyle, 1st Baron Carleton|Henry Boyle]] | after=[[Arthur Annesley, 5th Earl of Anglesey|Arthur Annesley]]| years=1701–1702}}
+{{s-gov}}
+{{succession box
+|before=[[Thomas Neale]]
+|title=[[Master of the Mint]]
+|years=1700{{ndash}} 1727
+|after=[[John Conduitt]]
+}}
+{{end box}}
+{{Template group
+|list1=
+{{Lucasian Professors of Mathematics}}
+{{Royal Society presidents 1700s}}
+{{Age of Enlightenment}}
+{{metaphysics}}
+{{philosophy of science}}
+}}
+{{Persondata
+|NAME=Newton, Isaac
+|ALTERNATIVE NAMES=Newton, Sir Isaac
+|SHORT DESCRIPTION=English mathematician, physicist, and astronomer
+|DATE OF BIRTH={{birth date|1643|1|4|df=y}}
+|PLACE OF BIRTH=[[Woolsthorpe-by-Colsterworth]], [[Lincolnshire]], England
+|DATE OF DEATH={{death date|1727|3|31|df=y}}
+|PLACE OF DEATH=[[Kensington]], London, England
+}}
+{{DEFAULTSORT:Newton, Isaac}}
+{{Scientists whose names are used as SI units}}
+
+[[Category:1643 births]]
+[[Category:1727 deaths]]
+[[Category:People from South Kesteven (district)]]
+[[Category:17th-century English people]]
+[[Category:17th-century Latin writers]]
+[[Category:17th-century mathematicians]]
+[[Category:18th-century English people]]
+[[Category:18th-century Latin writers]]
+[[Category:18th-century mathematicians]]
+[[Category:Alumni of Trinity College, Cambridge]]
+[[Category:Antitrinitarians]]
+[[Category:Arian Christians]]
+[[Category:Burials at Westminster Abbey]]
+[[Category:Cambridge mathematicians]]
+[[Category:Color scientists]]
+[[Category:Ballistics experts]]
+[[Category:English alchemists]]
+[[Category:English Anglicans]]
+[[Category:English Christians]]
+[[Category:English inventors]]
+[[Category:English mathematicians]]
+[[Category:English physicists]]
+[[Category:Fellows of the Royal Society]]
+[[Category:Fellows of Trinity College, Cambridge]]
+[[Category:Hermeticists]]
+[[Category:Isaac Newton| ]]
+[[Category:Knights Bachelor]]
+[[Category:Lucasian Professors of Mathematics]]
+[[Category:Masters of the Mint]]
+[[Category:Members of Parliament for the University of Cambridge]]
+[[Category:Members of the pre-1707 English Parliament]]
+[[Category:People illustrated on sterling banknotes]]
+[[Category:Philosophers of science]]
+[[Category:Presidents of the Royal Society]]
+[[Category:Religion and science]]
+[[Category:Rosicrucians]]
+[[Category:Scientific instrument makers]]
+[[Category:Theoretical physicists]]
+
+{{Link FA|mt}}
+{{Link FA|ms}}
+{{Link FA|es}}
+{{Link FA|bg}}
+
+[[af:Isaac Newton]]
+[[als:Isaac Newton]]
+[[am:አይሳክ ኒውተን]]
+[[ar:إسحاق نيوتن]]
+[[an:Isaac Newton]]
+[[arc:ܐܝܣܚܩ ܢܝܘܛܢ]]
+[[as:আইজাক নিউটন]]
+[[ast:Isaac Newton]]
+[[az:İsaak Nyuton]]
+[[bn:আইজাক নিউটন]]
+[[zh-min-nan:Isaac Newton]]
+[[ba:Исаак Ньютон]]
+[[be:Ісак Ньютан]]
+[[be-x-old:Ісак Ньютан]]
+[[bcl:Isaac Newton]]
+[[bar:Isaac Newton]]
+[[bs:Isaac Newton]]
+[[br:Isaac Newton]]
+[[bg:Исак Нютон]]
+[[ca:Isaac Newton]]
+[[cv:Исаак Ньютон]]
+[[ceb:Isaac Newton]]
+[[cs:Isaac Newton]]
+[[cbk-zam:Isaac Newton]]
+[[co:Isaac Newton]]
+[[cy:Isaac Newton]]
+[[da:Isaac Newton]]
+[[de:Isaac Newton]]
+[[dv:އިސާކް ނިއުޓަން]]
+[[dsb:Isaac Newton]]
+[[et:Isaac Newton]]
+[[el:Ισαάκ Νεύτων]]
+[[es:Isaac Newton]]
+[[eo:Isaac Newton]]
+[[ext:Isaac Newton]]
+[[eu:Isaac Newton]]
+[[fa:آیزاک نیوتن]]
+[[hif:Isaac Newton]]
+[[fo:Isaac Newton]]
+[[fr:Isaac Newton]]
+[[fy:Isaac Newton]]
+[[fur:Isaac Newton]]
+[[ga:Isaac Newton]]
+[[gd:Isaac Newton]]
+[[gl:Isaac Newton]]
+[[gan:牛頓]]
+[[gu:આઇઝેક ન્યુટન]]
+[[hak:Ngie-sat-khiet Ngiù-tun]]
+[[ko:아이작 뉴턴]]
+[[haw:Isaac Newton]]
+[[hy:Իսահակ Նյուտոն]]
+[[hi:सर आइज़क न्यूटन]]
+[[hsb:Isaac Newton]]
+[[hr:Isaac Newton]]
+[[io:Isaac Newton]]
+[[bpy:আইজাক নিউটন]]
+[[id:Isaac Newton]]
+[[ia:Isaac Newton]]
+[[ie:Isaac Newton]]
+[[os:Ньютон, Исаак]]
+[[is:Isaac Newton]]
+[[it:Isaac Newton]]
+[[he:אייזק ניוטון]]
+[[jv:Isaac Newton]]
+[[kl:Isaac Newton]]
+[[pam:Isaac Newton]]
+[[ka:ისააკ ნიუტონი]]
+[[kk:Ньютон, Исаак]]
+[[ky:Ньютон, Исаак]]
+[[sw:Isaac Newton]]
+[[ht:Isaac Newton]]
+[[ku:Isaac Newton]]
+[[lad:Isaac Newton]]
+[[la:Isaacus Newtonus]]
+[[lv:Īzaks Ņūtons]]
+[[lb:Isaac Newton]]
+[[lt:Isaac Newton]]
+[[lij:Isaac Newton]]
+[[li:Isaac Newton]]
+[[jbo:aisak.niuton]]
+[[lmo:Isaac Newton]]
+[[hu:Isaac Newton]]
+[[mk:Исак Њутн]]
+[[mg:Isaac Newton]]
+[[ml:ഐസക് ന്യൂട്ടണ്‍]]
+[[mt:Isaac Newton]]
+[[mr:आयझॅक न्यूटन]]
+[[arz:ايزاك نيوتن]]
+[[mzn:نیوتون]]
+[[ms:Isaac Newton]]
+[[cdo:Ī-sák Ngiù-dóng]]
+[[mwl:Isaac Newton]]
+[[mdf:Нютон, Исаак]]
+[[mn:Исаак Ньютон]]
+[[my:နယူတန်]]
+[[nah:Isaac Newton]]
+[[nl:Isaac Newton]]
+[[nds-nl:Isaac Newton]]
+[[ne:न्यूटन]]
+[[new:आईज्याक न्युटन]]
+[[ja:アイザック・ニュートン]]
+[[pih:Isaac Newton]]
+[[no:Isaac Newton]]
+[[nn:Isaac Newton]]
+[[nov:Isaac Newton]]
+[[oc:Isaac Newton]]
+[[mhr:Ньютон, Исаак]]
+[[om:Is’haaq Niiwtan]]
+[[uz:Isaac Newton]]
+[[pag:Isaac Newton]]
+[[pnb:آئیزک نیوٹن]]
+[[pap:Isaac Newton]]
+[[pms:Isaac Newton]]
+[[nds:Isaac Newton]]
+[[pl:Isaac Newton]]
+[[pnt:Ισαάκ Νιούτον]]
+[[pt:Isaac Newton]]
+[[kaa:Isaac Newton]]
+[[ksh:Isaac Newton]]
+[[ro:Isaac Newton]]
+[[rm:Isaac Newton]]
+[[qu:Isaac Newton]]
+[[ru:Ньютон, Исаак]]
+[[sc:Isaac Newton]]
+[[sco:Isaac Newton]]
+[[stq:Isaac Newton]]
+[[sq:Isaac Newton]]
+[[scn:Isaac Newton]]
+[[si:අයිසැක් නිවුටන්]]
+[[simple:Isaac Newton]]
+[[sk:Isaac Newton]]
+[[cu:Їсаакъ Нютонъ]]
+[[sl:Isaac Newton]]
+[[szl:Isaac Newton]]
+[[so:Isaaq Newton]]
+[[ckb:ئیساک نیوتۆن]]
+[[sr:Исак Њутн]]
+[[sh:Isaac Newton]]
+[[fi:Isaac Newton]]
+[[sv:Isaac Newton]]
+[[tl:Isaac Newton]]
+[[ta:ஐசாக் நியூட்டன்]]
+[[kab:Isaac Newton]]
+[[roa-tara:Isaac Newton]]
+[[tt:Исаак Ньютон]]
+[[te:ఐజాక్ న్యూటన్]]
+[[th:ไอแซก นิวตัน]]
+[[tg:Исаак Нютон]]
+[[tr:Isaac Newton]]
+[[tk:Isaak Nýuton]]
+[[uk:Ісаак Ньютон]]
+[[ur:آئزک نیوٹن]]
+[[ug:ئىسساك نيوتۇن]]
+[[za:Isaac Newton]]
+[[vec:Isaak Newton]]
+[[vi:Isaac Newton]]
+[[vo:Isaac Newton]]
+[[fiu-vro:Newtoni Isaac]]
+[[zh-classical:牛頓]]
+[[vls:Isaac Newton]]
+[[war:Isaac Newton]]
+[[wuu:牛顿]]
+[[yi:אייזיק ניוטאן]]
+[[yo:Isaac Newton]]
+[[zh-yue:牛頓]]
+[[diq:Isaac Newton]]
+[[bat-smg:Izauoks Niotuons]]
+[[zh:艾萨克·牛顿]]</text>
+    </revision>
+  </page>
+</mediawiki>

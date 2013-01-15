@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/44/trunk/src/edu/jhu/nlp/wikipedia
+END
+WikiPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/38/trunk/src/edu/jhu/nlp/wikipedia/WikiPage.java
+END
+WikiXMLDOMParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/43/trunk/src/edu/jhu/nlp/wikipedia/WikiXMLDOMParser.java
+END
+WikiXMLParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/43/trunk/src/edu/jhu/nlp/wikipedia/WikiXMLParser.java
+END
+SAXPageCallbackHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/43/trunk/src/edu/jhu/nlp/wikipedia/SAXPageCallbackHandler.java
+END
+InfoBox.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/40/trunk/src/edu/jhu/nlp/wikipedia/InfoBox.java
+END
+WikiTextParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/44/trunk/src/edu/jhu/nlp/wikipedia/WikiTextParser.java
+END
+PageCallbackHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/34/trunk/src/edu/jhu/nlp/wikipedia/PageCallbackHandler.java
+END
+IteratorHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/34/trunk/src/edu/jhu/nlp/wikipedia/IteratorHandler.java
+END
+WikiXMLParserFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/26/trunk/src/edu/jhu/nlp/wikipedia/WikiXMLParserFactory.java
+END
+WikiPageIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/34/trunk/src/edu/jhu/nlp/wikipedia/WikiPageIterator.java
+END
+WikiXMLSAXParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/43/trunk/src/edu/jhu/nlp/wikipedia/WikiXMLSAXParser.java
+END

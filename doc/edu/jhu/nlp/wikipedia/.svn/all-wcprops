@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/42/trunk/doc/edu/jhu/nlp/wikipedia
+END
+WikiXMLSAXParser.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/42/trunk/doc/edu/jhu/nlp/wikipedia/WikiXMLSAXParser.html
+END
+package-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/42/trunk/doc/edu/jhu/nlp/wikipedia/package-frame.html
+END
+package-use.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/35/trunk/doc/edu/jhu/nlp/wikipedia/package-use.html
+END
+WikiTextParser.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/42/trunk/doc/edu/jhu/nlp/wikipedia/WikiTextParser.html
+END
+package-summary.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/42/trunk/doc/edu/jhu/nlp/wikipedia/package-summary.html
+END
+IteratorHandler.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/42/trunk/doc/edu/jhu/nlp/wikipedia/IteratorHandler.html
+END
+PageCallbackHandler.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/42/trunk/doc/edu/jhu/nlp/wikipedia/PageCallbackHandler.html
+END
+package-tree.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/42/trunk/doc/edu/jhu/nlp/wikipedia/package-tree.html
+END
+WikiXMLParserFactory.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/42/trunk/doc/edu/jhu/nlp/wikipedia/WikiXMLParserFactory.html
+END
+WikiPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/42/trunk/doc/edu/jhu/nlp/wikipedia/WikiPage.html
+END
+WikiXMLParser.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/42/trunk/doc/edu/jhu/nlp/wikipedia/WikiXMLParser.html
+END
+WikiXMLDOMParser.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/42/trunk/doc/edu/jhu/nlp/wikipedia/WikiXMLDOMParser.html
+END
+SAXPageCallbackHandler.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/42/trunk/doc/edu/jhu/nlp/wikipedia/SAXPageCallbackHandler.html
+END
+InfoBox.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/42/trunk/doc/edu/jhu/nlp/wikipedia/InfoBox.html
+END
+WikiPageIterator.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/42/trunk/doc/edu/jhu/nlp/wikipedia/WikiPageIterator.html
+END
