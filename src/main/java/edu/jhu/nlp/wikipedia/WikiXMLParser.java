@@ -1,7 +1,5 @@
 package edu.jhu.nlp.wikipedia;
 
-
-import org.apache.tools.bzip2.CBZip2InputStream;
 import org.xml.sax.InputSource;
 
 import java.io.BufferedReader;
@@ -17,19 +15,20 @@ import java.util.zip.GZIPInputStream;
  * @author Jason Smith
  *
  */
-public abstract class WikiXMLParser {
-
+public abstract class WikiXMLParser
+{
     private String wikiXMLFile = null;
     private BufferedReader wikiXMLBufferedReader = null;
     protected WikiPage currentPage = null;
 
-    public WikiXMLParser(String fileName){
+    public WikiXMLParser(String fileName)
+    {
         wikiXMLFile = fileName;
     }
 
-    public WikiXMLParser(InputStream is){
-        wikiXMLBufferedReader =
-                new BufferedReader(new InputStreamReader(is));
+    public WikiXMLParser(InputStream is)
+    {
+        wikiXMLBufferedReader = new BufferedReader(new InputStreamReader(is));
     }
 
     /**
@@ -63,27 +62,26 @@ public abstract class WikiXMLParser {
     {
         BufferedReader br = null;
 
-        if(this.wikiXMLBufferedReader != null) {
+        if (this.wikiXMLBufferedReader != null)
+        {
             br = this.wikiXMLBufferedReader;
-        } else if(wikiXMLFile.endsWith(".gz")) {
+        }
+        else if (wikiXMLFile.endsWith(".gz"))
+        {
             br = new BufferedReader(new InputStreamReader(
-                    new GZIPInputStream(new FileInputStream(wikiXMLFile))));
-        } else if(wikiXMLFile.endsWith(".bz2")) {
-            FileInputStream fis = new FileInputStream(wikiXMLFile);
-            byte [] ignoreBytes = new byte[2];
-            fis.read(ignoreBytes); //"B", "Z" bytes from commandline tools
+                    new GZIPInputStream(new FileInputStream(wikiXMLFile)), "UTF-8"));
+        }
+        else
+        {
             br = new BufferedReader(new InputStreamReader(
-                    new CBZip2InputStream(fis)));
-        } else {
-            br = new BufferedReader(new InputStreamReader(
-                    new FileInputStream(wikiXMLFile)));
+                    new FileInputStream(wikiXMLFile), "UTF-8"));
         }
 
         return new InputSource(br);
     }
 
-    protected void notifyPage(WikiPage page) {
+    protected void notifyPage(WikiPage page)
+    {
         currentPage = page;
-
     }
 }

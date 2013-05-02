@@ -10,28 +10,30 @@ import java.util.regex.Pattern;
  * @author Delip Rao
  *
  */
-public class WikiTextParser {
-
+public class WikiTextParser
+{
     private String wikiText = null;
-    private Vector<String> pageCats = null;
-    private Vector<String> pageLinks = null;
+    private HashSet<String> pageCats = null;
+    private HashSet<String> pageLinks = null;
     private boolean redirect = false;
     private String redirectString = null;
-    private static Pattern redirectPattern =
-            Pattern.compile("#REDIRECT\\s+\\[\\[(.*?)\\]\\]");
+    private static Pattern redirectPattern = Pattern.compile("#REDIRECT\\s+\\[\\[(.*?)\\]\\]");
     private boolean stub = false;
     private boolean disambiguation = false;
     private static Pattern stubPattern = Pattern.compile("\\-stub\\}\\}");
     private static Pattern disambCatPattern = Pattern.compile("\\{\\{disambig\\}\\}");
-    private InfoBox infoBox = null;
 
-    public WikiTextParser(String wtext) {
+    public WikiTextParser(String wtext)
+    {
         wikiText = wtext;
         Matcher matcher = redirectPattern.matcher(wikiText);
-        if(matcher.find()) {
+        if (matcher.find())
+        {
             redirect = true;
             if(matcher.groupCount() == 1)
+            {
                 redirectString = matcher.group(1);
+            }
         }
         matcher = stubPattern.matcher(wikiText);
         stub = matcher.find();
@@ -39,58 +41,79 @@ public class WikiTextParser {
         disambiguation = matcher.find();
     }
 
-    public boolean isRedirect() {
+    public boolean isRedirect()
+    {
         return redirect;
     }
 
-    public boolean isStub() {
+    public boolean isStub()
+    {
         return stub;
     }
 
-    public String getRedirectText() {
+    public String getRedirectText()
+    {
         return redirectString;
     }
 
-    public String getText() {
+    public String getText()
+    {
         return wikiText;
     }
 
-    public Vector<String> getCategories() {
-        if(pageCats == null) parseCategories();
+    public HashSet<String> getCategories()
+    {
+        if (pageCats == null)
+        {
+            parseCategories();
+        }
         return pageCats;
     }
 
-    public Vector<String> getLinks() {
-        if(pageLinks == null) parseLinks();
+    public HashSet<String> getLinks()
+    {
+        if (pageLinks == null)
+        {
+            parseLinks();
+        }
         return pageLinks;
     }
 
-    private void parseCategories() {
-        pageCats = new Vector<String>();
+    private void parseCategories()
+    {
+        pageCats = new HashSet<String>();
         Pattern catPattern = Pattern.compile("\\[\\[Category:(.*?)\\]\\]", Pattern.MULTILINE);
         Matcher matcher = catPattern.matcher(wikiText);
-        while(matcher.find()) {
+        while (matcher.find())
+        {
             String [] temp = matcher.group(1).split("\\|");
             pageCats.add(temp[0]);
         }
     }
 
-    private void parseLinks() {
-        pageLinks = new Vector<String>();
+    private void parseLinks()
+    {
+        pageLinks = new HashSet<String>();
 
         Pattern catPattern = Pattern.compile("\\[\\[(.*?)\\]\\]", Pattern.MULTILINE);
         Matcher matcher = catPattern.matcher(wikiText);
-        while(matcher.find()) {
+        while (matcher.find())
+        {
             String [] temp = matcher.group(1).split("\\|");
-            if(temp == null || temp.length == 0) continue;
+            if (temp == null || temp.length == 0)
+            {
+                continue;
+            }
             String link = temp[0];
-            if(link.contains(":") == false) {
+            if (link.contains(":") == false)
+            {
                 pageLinks.add(link);
             }
         }
     }
 
-    public String getPlainText() {
+    public String getPlainText()
+    {
         String text = wikiText.replaceAll("&gt;", ">");
         text = text.replaceAll("&lt;", "<");
         text = text.replaceAll("<ref>.*?</ref>", " ");
@@ -104,77 +127,8 @@ public class WikiTextParser {
         return text;
     }
 
-    public InfoBox getInfoBox() {
-        //parseInfoBox is expensive. Doing it only once like other parse* methods
-        if(infoBox == null)
-            infoBox = parseInfoBox();
-        return infoBox;
-    }
-
-    private InfoBox parseInfoBox() {
-        String INFOBOX_CONST_STR = "{{Infobox";
-        int startPos = wikiText.indexOf(INFOBOX_CONST_STR);
-        if(startPos < 0) return null;
-        int bracketCount = 2;
-        int endPos = startPos + INFOBOX_CONST_STR.length();
-        for(; endPos < wikiText.length(); endPos++) {
-            switch(wikiText.charAt(endPos)) {
-                case '}':
-                    bracketCount--;
-                    break;
-                case '{':
-                    bracketCount++;
-                    break;
-                default:
-            }
-            if(bracketCount == 0) break;
-        }
-        if(endPos+1 >= wikiText.length()) return null;
-        // This happens due to malformed Infoboxes in wiki text. See Issue #10
-        // Giving up parsing is the easier thing to do.
-        String infoBoxText = wikiText.substring(startPos, endPos+1);
-        infoBoxText = stripCite(infoBoxText); // strip clumsy {{cite}} tags
-        // strip any html formatting
-        infoBoxText = infoBoxText.replaceAll("&gt;", ">");
-        infoBoxText = infoBoxText.replaceAll("&lt;", "<");
-        infoBoxText = infoBoxText.replaceAll("<ref.*?>.*?</ref>", " ");
-        infoBoxText = infoBoxText.replaceAll("</?.*?>", " ");
-        return new InfoBox(infoBoxText);
-    }
-
-    private String stripCite(String text) {
-        String CITE_CONST_STR = "{{cite";
-        int startPos = text.indexOf(CITE_CONST_STR);
-        if(startPos < 0) return text;
-        int bracketCount = 2;
-        int endPos = startPos + CITE_CONST_STR.length();
-        for(; endPos < text.length(); endPos++) {
-            switch(text.charAt(endPos)) {
-                case '}':
-                    bracketCount--;
-                    break;
-                case '{':
-                    bracketCount++;
-                    break;
-                default:
-            }
-            if(bracketCount == 0) break;
-        }
-        text = text.substring(0, startPos-1) + text.substring(endPos);
-        return stripCite(text);
-    }
-
-    public boolean isDisambiguationPage() {
+    public boolean isDisambiguationPage()
+    {
         return disambiguation;
     }
-
-    public String getTranslatedTitle(String languageCode) {
-        Pattern pattern = Pattern.compile("^\\[\\[" + languageCode + ":(.*?)\\]\\]$", Pattern.MULTILINE);
-        Matcher matcher = pattern.matcher(wikiText);
-        if(matcher.find()) {
-            return matcher.group(1);
-        }
-        return null;
-    }
-
 }

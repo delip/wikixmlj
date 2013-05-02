@@ -1,8 +1,6 @@
 package edu.jhu.nlp.wikipedia;
 
-import edu.jhu.nlp.language.Language;
-
-import java.util.Vector;
+import java.util.HashSet;
 
 /**
  * Data structures for a wikipedia page.
@@ -20,8 +18,8 @@ public class WikiPage {
      * Set the page title. This is not intended for direct use.
      * @param title
      */
-    public void setTitle(String title) {
-        this.title = title;
+    public void setTitle(final String title) {
+        this.title = title.trim();
     }
 
     /**
@@ -29,7 +27,7 @@ public class WikiPage {
      * This setter also introduces side effects. This is not intended for direct use.
      * @param wtext wiki-formatted text
      */
-    public void setWikiText(String wtext) {
+    public void setWikiText(final String wtext) {
         wikiTextParser = new WikiTextParser(wtext);
     }
 
@@ -43,24 +41,11 @@ public class WikiPage {
 
     /**
      *
-     * @param languageCode
-     * @return a string containing the title translated
-     *         in the given languageCode.
-     * @see Language
-     */
-    public String getTranslatedTitle(String languageCode) {
-        return wikiTextParser.getTranslatedTitle(languageCode);
-    }
-
-    /**
-     *
      * @return true if this a disambiguation page.
      */
-    public boolean isDisambiguationPage() {
-        if(title.contains("(disambiguation)") ||
-                wikiTextParser.isDisambiguationPage())
-            return true;
-        else return false;
+    public boolean isDisambiguationPage()
+    {
+        return title.contains("(disambiguation)") || wikiTextParser.isDisambiguationPage();
     }
 
     /**
@@ -116,7 +101,7 @@ public class WikiPage {
      *
      * @return a list of categories the page belongs to, null if this a redirection/disambiguation page
      */
-    public Vector<String> getCategories() {
+    public HashSet<String> getCategories() {
         return wikiTextParser.getCategories();
     }
 
@@ -124,16 +109,12 @@ public class WikiPage {
      *
      * @return a list of links contained in the page
      */
-    public Vector<String> getLinks() {
+    public HashSet<String> getLinks() {
         return wikiTextParser.getLinks();
     }
 
     public void setID(String id) {
         this.id = id;
-    }
-
-    public InfoBox getInfoBox() {
-        return wikiTextParser.getInfoBox();
     }
 
     public String getID() {
