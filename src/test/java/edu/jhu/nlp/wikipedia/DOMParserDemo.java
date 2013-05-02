@@ -1,7 +1,4 @@
-
-import edu.jhu.nlp.wikipedia.WikiPageIterator;
-import edu.jhu.nlp.wikipedia.WikiXMLParser;
-import edu.jhu.nlp.wikipedia.WikiXMLParserFactory;
+package edu.jhu.nlp.wikipedia;
 
 /**
  * 

@@ -1,6 +1,6 @@
+package edu.jhu.nlp.wikipedia;
+
 import edu.jhu.nlp.util.FileUtil;
-import edu.jhu.nlp.wikipedia.InfoBox;
-import edu.jhu.nlp.wikipedia.WikiTextParser;
 
 /**
  * @author Delip Rao
