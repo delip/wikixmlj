@@ -1,6 +1,5 @@
 package edu.jhu.nlp.wikipedia;
 
-import edu.jhu.nlp.language.Language;
 import edu.jhu.nlp.util.FileUtil;
 import org.junit.After;
 import org.junit.Before;
@@ -55,20 +54,5 @@ public class WikiTextParserTest extends TestCase {
         String wikiText = FileUtil.readFile(wikiFile);
         WikiTextParser wtp = new WikiTextParser(wikiText);
         System.err.println(wtp.getPlainText());
-    }
-
-    public static void demoInfoBox(String wikiFile) {
-        String wikiText = FileUtil.readFile(wikiFile);
-        WikiTextParser wtp = new WikiTextParser(wikiText);
-        InfoBox infoBox = wtp.getInfoBox();
-        if(infoBox != null)
-            System.err.println(infoBox.dumpRaw());
-        else System.err.println("(null)");
-    }
-
-    public static void demoGetTranslatedTitle(String wikiFile) {
-        String wikiText = FileUtil.readFile(wikiFile);
-        WikiTextParser wtp = new WikiTextParser(wikiText);
-        System.err.println(wtp.getTranslatedTitle(Language.ARABIC));
     }
 }

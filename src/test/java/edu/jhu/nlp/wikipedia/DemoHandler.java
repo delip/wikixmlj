@@ -1,6 +1,6 @@
 package edu.jhu.nlp.wikipedia;
 
-import java.util.Vector;
+import java.util.HashSet;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -17,7 +17,7 @@ public class DemoHandler implements PageCallbackHandler {
 	public void process(WikiPage page) {
 		
 		boolean personPage = false;
-		Vector<String> cats = page.getCategories();
+		HashSet<String> cats = page.getCategories();
 		for (String category : cats) {
 			if(category.matches("\\d\\d\\d\\d (births|deaths)"))
 				personPage = true;
