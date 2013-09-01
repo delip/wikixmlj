@@ -22,6 +22,7 @@ public class WikiTextParser
     private boolean disambiguation = false;
     private static Pattern stubPattern = Pattern.compile("\\-stub\\}\\}");
     private static Pattern disambCatPattern = Pattern.compile("\\{\\{disambig\\}\\}");
+    private InfoBox infoBox = null;
 
     public WikiTextParser(String wtext)
     {
@@ -127,8 +128,74 @@ public class WikiTextParser
         return text;
     }
 
+    public InfoBox getInfoBox() {
+        //parseInfoBox is expensive. Doing it only once like other parse* methods
+        if (infoBox == null)
+            infoBox = parseInfoBox();
+        return infoBox;
+    }
+
+    private InfoBox parseInfoBox() {
+        String INFOBOX_CONST_STR = "{{Infobox";
+        int startPos = wikiText.indexOf(INFOBOX_CONST_STR);
+        if (startPos < 0) return null;
+        int bracketCount = 2;
+        int endPos = startPos + INFOBOX_CONST_STR.length();
+        for (; endPos < wikiText.length(); endPos++) {
+            switch (wikiText.charAt(endPos)) {
+                case '}':
+                    bracketCount--;
+                    break;
+                case '{':
+                    bracketCount++;
+                    break;
+                default:
+            }
+            if (bracketCount == 0) break;
+        }
+        String infoBoxText = wikiText.substring(startPos, endPos + 1);
+        infoBoxText = stripCite(infoBoxText); // strip clumsy {{cite}} tags
+        // strip any html formatting
+        infoBoxText = infoBoxText.replaceAll("&gt;", ">");
+        infoBoxText = infoBoxText.replaceAll("&lt;", "<");
+        infoBoxText = infoBoxText.replaceAll("<ref.*?>.*?</ref>", " ");
+        infoBoxText = infoBoxText.replaceAll("</?.*?>", " ");
+        return new InfoBox(infoBoxText);
+    }
+
+    private String stripCite(String text) {
+        String CITE_CONST_STR = "{{cite";
+        int startPos = text.indexOf(CITE_CONST_STR);
+        if (startPos < 0) return text;
+        int bracketCount = 2;
+        int endPos = startPos + CITE_CONST_STR.length();
+        for (; endPos < text.length(); endPos++) {
+            switch (text.charAt(endPos)) {
+                case '}':
+                    bracketCount--;
+                    break;
+                case '{':
+                    bracketCount++;
+                    break;
+                default:
+            }
+            if (bracketCount == 0) break;
+        }
+        text = text.substring(0, startPos - 1) + text.substring(endPos);
+        return stripCite(text);
+    }
+
     public boolean isDisambiguationPage()
     {
         return disambiguation;
+    }
+
+    public String getTranslatedTitle(String languageCode) {
+        Pattern pattern = Pattern.compile("^\\[\\[" + languageCode + ":(.*?)\\]\\]$", Pattern.MULTILINE);
+        Matcher matcher = pattern.matcher(wikiText);
+        if (matcher.find()) {
+            return matcher.group(1);
+        }
+        return null;
     }
 }
