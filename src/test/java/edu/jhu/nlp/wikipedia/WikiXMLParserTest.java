@@ -6,7 +6,7 @@ public class WikiXMLParserTest {
     @Test
     public void testSaxParser() throws Exception
     {
-        WikiXMLParser wxsp = WikiXMLParserFactory.getSAXParser(getClass().getResource("/newton.xml").getFile());
+        WikiXMLParser wxsp = WikiXMLParserFactory.getSAXParser(getClass().getResource("/newton.xml"));
 
         wxsp.setPageCallback(new PageCallbackHandler() {
             @Override
