@@ -1,11 +1,12 @@
 package edu.jhu.nlp.wikipedia;
 
+import org.apache.tools.bzip2.CBZip2InputStream;
 import org.xml.sax.InputSource;
 
 import java.io.BufferedReader;
-import java.io.FileInputStream;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.net.URL;
 import java.util.zip.GZIPInputStream;
 
 /**
@@ -17,19 +18,18 @@ import java.util.zip.GZIPInputStream;
  */
 public abstract class WikiXMLParser
 {
-    private String wikiXMLFile = null;
-    private BufferedReader wikiXMLBufferedReader = null;
+    private URL wikiXMLFile = null;
     protected WikiPage currentPage = null;
+    private InputStream is = null;
 
-    public WikiXMLParser(String fileName)
-    {
+    public WikiXMLParser(URL fileName) {
         wikiXMLFile = fileName;
     }
 
-    public WikiXMLParser(InputStream is)
-    {
-        wikiXMLBufferedReader = new BufferedReader(new InputStreamReader(is));
+    public WikiXMLParser(InputStream is) {
+        this.is = is;
     }
+
 
     /**
      * Set a callback handler. The callback is executed every time a
@@ -54,27 +54,22 @@ public abstract class WikiXMLParser
     public abstract WikiPageIterator getIterator() throws Exception;
 
     /**
-     *
      * @return An InputSource created from wikiXMLFile
      * @throws Exception
      */
-    protected InputSource getInputSource() throws Exception
-    {
-        BufferedReader br = null;
+    protected InputSource getInputSource() throws Exception {
+        if (is != null) return new InputSource(is);
 
-        if (this.wikiXMLBufferedReader != null)
-        {
-            br = this.wikiXMLBufferedReader;
-        }
-        else if (wikiXMLFile.endsWith(".gz"))
-        {
-            br = new BufferedReader(new InputStreamReader(
-                    new GZIPInputStream(new FileInputStream(wikiXMLFile)), "UTF-8"));
-        }
-        else
-        {
-            br = new BufferedReader(new InputStreamReader(
-                    new FileInputStream(wikiXMLFile), "UTF-8"));
+        final BufferedReader br;
+        if (wikiXMLFile.toExternalForm().endsWith(".gz")) {
+            br = new BufferedReader(new InputStreamReader(new GZIPInputStream(wikiXMLFile.openStream()), "UTF-8"));
+        } else if (wikiXMLFile.toExternalForm().endsWith(".bz2")) {
+            InputStream fis = wikiXMLFile.openStream();
+            byte[] ignoreBytes = new byte[2];
+            fis.read(ignoreBytes); //"B", "Z" bytes from commandline tools
+            br = new BufferedReader(new InputStreamReader(new CBZip2InputStream(fis), "UTF-8"));
+        } else {
+            br = new BufferedReader(new InputStreamReader(wikiXMLFile.openStream(), "UTF-8"));
         }
 
         return new InputSource(br);
