@@ -17,11 +17,11 @@ public class WikiTextParser
     private HashSet<String> pageLinks = null;
     private boolean redirect = false;
     private String redirectString = null;
-    private static Pattern redirectPattern = Pattern.compile("#REDIRECT\\s+\\[\\[(.*?)\\]\\]");
+    private static Pattern redirectPattern = Pattern.compile("(?i)#REDIRECT\\s+\\[\\[(.*?)\\]\\]");
     private boolean stub = false;
     private boolean disambiguation = false;
-    private static Pattern stubPattern = Pattern.compile("\\-stub\\}\\}");
-    private static Pattern disambCatPattern = Pattern.compile("\\{\\{disambig\\}\\}");
+    private static Pattern stubPattern = Pattern.compile("(?i)\\-stub\\}\\}");
+    private static Pattern disambCatPattern = Pattern.compile("(?i)\\{\\{disambig\\}\\}");
     private InfoBox infoBox = null;
 
     public WikiTextParser(String wtext)
