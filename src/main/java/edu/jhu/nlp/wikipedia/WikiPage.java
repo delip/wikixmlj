@@ -1,6 +1,7 @@
 package edu.jhu.nlp.wikipedia;
 
 import java.util.HashSet;
+import java.util.regex.Pattern;
 
 /**
  * Data structures for a wikipedia page.
@@ -39,13 +40,15 @@ public class WikiPage {
         return title;
     }
 
+    private static Pattern disambCatPattern = Pattern.compile("\\(disambiguation\\)", Pattern.CASE_INSENSITIVE);
+
     /**
      *
      * @return true if this a disambiguation page.
      */
     public boolean isDisambiguationPage()
     {
-        return title.contains("(disambiguation)") || wikiTextParser.isDisambiguationPage();
+        return disambCatPattern.matcher(title).matches() || wikiTextParser.isDisambiguationPage();
     }
 
     /**
@@ -53,7 +56,7 @@ public class WikiPage {
      * @return true for "special pages" -- like Category:, Wikipedia:, etc
      */
     public boolean isSpecialPage() {
-        return title.contains(":");
+        return title.indexOf(':') > 0;
     }
 
     /**
@@ -103,6 +106,10 @@ public class WikiPage {
      */
     public HashSet<String> getCategories() {
         return wikiTextParser.getCategories();
+    }
+
+    public InfoBox getInfoBox() {
+        return wikiTextParser.getInfoBox();
     }
 
     /**
