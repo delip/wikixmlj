@@ -113,14 +113,12 @@ public class WikiTextParser
         }
     }
 
-    private static Pattern stylesPattern = Pattern.compile("\\{\\|.*?\\|\\}", Pattern.MULTILINE | Pattern.DOTALL);
+    private static Pattern stylesPattern = Pattern.compile("\\{\\|.*?\\|\\}$", Pattern.MULTILINE | Pattern.DOTALL);
     private static Pattern infoboxCleanupPattern = Pattern.compile("\\{\\{infobox.*?\\}\\}$", Pattern.MULTILINE | Pattern.DOTALL | Pattern.CASE_INSENSITIVE);
     private static Pattern curlyCleanupPattern0 = Pattern.compile("^\\{\\{.*?\\}\\}$", Pattern.MULTILINE | Pattern.DOTALL);
     private static Pattern curlyCleanupPattern1 = Pattern.compile("\\{\\{.*?\\}\\}", Pattern.MULTILINE | Pattern.DOTALL);
-    private static Pattern cleanupPatternEx = Pattern.compile("\\[\\[(.*?\\|){0,1}(.*?)\\]\\]", Pattern.MULTILINE | Pattern.DOTALL);
     private static Pattern cleanupPattern0 = Pattern.compile("^\\[\\[.*?:.*?\\]\\]$", Pattern.MULTILINE | Pattern.DOTALL);
-    private static Pattern cleanupPattern1 = Pattern.compile("\\[\\[.*?:.*?\\]\\]", Pattern.MULTILINE);
-    private static Pattern cleanupPattern2 = Pattern.compile("\\[\\[(.*?)\\]\\]", Pattern.MULTILINE);
+    private static Pattern cleanupPattern1 = Pattern.compile("\\[\\[(.*?)\\]\\]", Pattern.MULTILINE | Pattern.DOTALL);
     private static Pattern refCleanupPattern = Pattern.compile("<ref>.*?</ref>", Pattern.MULTILINE | Pattern.DOTALL);
     private static Pattern commentsCleanupPattern = Pattern.compile("<!--.*?-->", Pattern.MULTILINE | Pattern.DOTALL);
 
@@ -136,13 +134,24 @@ public class WikiTextParser
         text = curlyCleanupPattern0.matcher(text).replaceAll(" ");
         text = curlyCleanupPattern1.matcher(text).replaceAll(" ");
         text = cleanupPattern0.matcher(text).replaceAll(" ");
-        text = cleanupPattern1.matcher(text).replaceAll(" ");
-        text = cleanupPatternEx.matcher(text).replaceAll("$2");
-        //text = cleanupPattern2.matcher(text).replaceAll("$1");
-        //text = text.replaceAll("\\s(.*?)\\|(\\w+\\s)", " $2");
-        //text = text.replaceAll("\\[.*?\\]", " ");
-        //text = text.replaceAll("\\'{2,}", "");
-        return text;
+
+        Matcher m = cleanupPattern1.matcher(text);
+        StringBuffer sb = new StringBuffer();
+        while (m.find()) {
+            // For example: transform match to upper case
+            int i = m.group().lastIndexOf('|');
+            String replacement;
+            if (i > 0) {
+                m.appendReplacement(sb, m.group(1).substring(i - 1));
+            } else {
+                m.appendReplacement(sb, m.group(1));
+            }
+        }
+        m.appendTail(sb);
+        text = sb.toString();
+
+        text = text.replaceAll("'{2,}", "");
+        return text.trim();
     }
 
     public InfoBox getInfoBox() {
