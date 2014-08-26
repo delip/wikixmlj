@@ -9,8 +9,10 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-import static junit.framework.Assert.assertNotNull;
-import static junit.framework.Assert.assertTrue;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
 
 
 public class WikiTextParserTest extends TestCase {
@@ -76,6 +78,16 @@ public class WikiTextParserTest extends TestCase {
         assertNotNull(page.getInfoBox());
         String text = page.getText();
         assertTrue(text.indexOf("{{Infobox") == -1);
+    }
+
+    @Test
+    public void testMatcherGroupReferenceInWiki() {
+        try {
+            String text = new WikiTextParser("[[$9]]").getPlainText();
+            assertEquals("$9", text);
+        } catch (IllegalArgumentException e) {
+            fail("matcher group reference should be pasrsed");
+        }
     }
 
     // TODO: create more test cases since there really isn't any in the
