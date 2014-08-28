@@ -142,10 +142,11 @@ public class WikiTextParser
             int i = m.group().lastIndexOf('|');
             String replacement;
             if (i > 0) {
-                m.appendReplacement(sb, m.group(1).substring(i - 1));
+                replacement = m.group(1).substring(i - 1);
             } else {
-                m.appendReplacement(sb, m.group(1));
+                replacement = m.group(1);
             }
+            m.appendReplacement(sb, Matcher.quoteReplacement(replacement));
         }
         m.appendTail(sb);
         text = sb.toString();
