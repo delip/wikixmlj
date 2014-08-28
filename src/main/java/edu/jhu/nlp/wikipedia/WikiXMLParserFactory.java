@@ -1,5 +1,6 @@
 package edu.jhu.nlp.wikipedia;
 
+import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URL;
 
@@ -10,7 +11,7 @@ import java.net.URL;
  */
 public class WikiXMLParserFactory {
     public static WikiXMLParser getSAXParser(String fileName) throws MalformedURLException {
-        return new WikiXMLSAXParser(new URL(fileName));
+        return new WikiXMLSAXParser(new File(fileName).toURL());
     }
 
     public static WikiXMLParser getSAXParser(URL fileName) {
