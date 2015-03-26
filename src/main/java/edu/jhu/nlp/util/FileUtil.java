@@ -13,7 +13,7 @@ public class FileUtil {
   
   /**
    * Read contents of a file into a string.
-   * @param file
+   * @param fileName
    * @return file contents.
    */
   public static String readFile(String fileName) {

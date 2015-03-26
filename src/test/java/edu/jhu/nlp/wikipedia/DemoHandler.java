@@ -3,9 +3,11 @@ package edu.jhu.nlp.wikipedia;
 import java.util.HashSet;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
- * A very simple callback for demo. 																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																						qa
+ * A very simple callback for demo.
  * 
  * @author Delip Rao
  * @see PageCallbackHandler
@@ -13,6 +15,9 @@ import java.util.regex.Pattern;
  */
 
 public class DemoHandler implements PageCallbackHandler {
+
+	private static final Logger logger = LoggerFactory.getLogger(DemoHandler.class);
+
 
 	public void process(WikiPage page) {
 		
@@ -30,7 +35,7 @@ public class DemoHandler implements PageCallbackHandler {
 			Matcher matcher = hiPattern.matcher(page.getWikiText());
 			while(matcher.find()) {
 				String trans = matcher.group(1);
-				System.out.println(page.getTitle() + "\t" + trans);
+				logger.info(page.getTitle() + "\t" + trans);
 			}
 			
 		}

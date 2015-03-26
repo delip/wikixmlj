@@ -11,7 +11,8 @@ import java.net.URL;
  */
 public class WikiXMLParserFactory {
     public static WikiXMLParser getSAXParser(String fileName) throws MalformedURLException {
-        return new WikiXMLSAXParser(new File(fileName).toURL());
+
+        return new WikiXMLSAXParser(new File(fileName).toURI().toURL());
     }
 
     public static WikiXMLParser getSAXParser(URL fileName) {
