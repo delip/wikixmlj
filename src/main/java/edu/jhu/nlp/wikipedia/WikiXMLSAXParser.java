@@ -5,6 +5,7 @@ import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.XMLReaderFactory;
 
 import java.io.InputStream;
+import java.net.URL;
 
 /**
  *
@@ -23,7 +24,7 @@ public class WikiXMLSAXParser extends WikiXMLParser {
         this.initReaderHandler();
     }
 
-    public WikiXMLSAXParser(String fileName){
+    public WikiXMLSAXParser(URL fileName) {
         super(fileName);
         this.initReaderHandler();
     }

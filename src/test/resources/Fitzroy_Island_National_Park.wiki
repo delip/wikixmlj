@@ -1,0 +1,130 @@
+{{for|the continental island|Fitzroy Island, Queensland}}
+{{Use dmy dates|date=September 2014}}
+{{Use Australian English|date=September 2014}}
+{{Infobox protected area of Australia
+| name                   = Fitzroy Island National Park
+| state                  = qld<!-- If this field is empty, it should be completed. See infobox instructions for correct values. -->
+| iucn_category          = II
+| image                  = 
+| imagesize              = 
+| caption                = 
+| image_alt              = 
+| latd                   = 16
+| latm                   = 55
+| lats                   = 48
+| longd                  = 145
+| longm                  = 59
+| longs                  = 32
+| coord_type             = 
+| map_scale              = 
+| force_national_map     = 
+| relief                 = 
+| pushpin_map_caption    = 
+| pushpin_label_position = 
+| map_alt                = 
+| nearest_town_or_city   = [[Cairns]]
+| area                   = 2.89<!-- If the area is greater than 100ha (1km2) a conversion template is not required. -->
+| area_footnotes         = 
+| established            = 1939
+| established_footnotes  = 
+| visitation_num         = 
+| visitation_year        = 
+| visitation_footnotes   = 
+| managing_authorities   = Queensland Parks and Wildlife Service
+| url                    = 
+| embedded               = 
+<!-- Deprecated parameters -->
+<!-- The following parameters have been deprecated since 27 December 2013. This infobox should be modified so that these parameters are no longer needed. -->
+| lat                    = 
+| long                   = 
+| locator_x              = 
+| locator_y              = 
+| coordinates            = 
+| official_site          = [{{url|http://nprsr.qld.gov.au/parks/fitzroy-island/index.html|Fitzroy Island National Park]
+}}
+'''Fitzroy Island National Park''' is a gazetted [[protected area]] covering Fitzroy Island, Queensland (also called Koba or Gabar),  a [[Continental island#Continental islands|continental island]] located 22 kilometres east of [[Cairns]], [[Queensland]] (Australia).<ref>{{cite web
+  | last = 
+  | first = 
+  | authorlink = 
+  | coauthors = 
+  | title = Place Name Details: Fitzroy Island
+  | work = Property, Title and Valuations
+  | publisher = Queensland Government
+  | date = 
+  | url = http://www.nrw.qld.gov.au/property/placenames/detail.php?id=12563
+  | format = 
+  | doi = 
+  | accessdate = 2009-05-17}}</ref>
+
+The Aboriginal people particularly connected to this Island are the ''Kobaburra'' (or alternatively ''Gaba:ra''<ref>{{cite book
+  | last = Bottoms
+  | first = T.
+  | authorlink = 
+  | coauthors = 
+  | title = The Bama People of the Rainforest: Aboriginal-European relations in the Cairns Rainforest Region up to 1876
+  | publisher = Gadja Enterprises
+  | year = 1992
+  | location = Cairns
+  | pages = 
+  | url = 
+  | doi = 
+  | id = 
+  | isbn = }}</u></ref>) from within the ''Gungganyji'' language group.<ref name="QPWS">{{cite web
+  | last = 
+  | first = 
+  | authorlink = 
+  | coauthors = 
+  | title = Fitzroy Island National Park
+  | work = 
+  | publisher = Queensland Government
+  | date = 
+  | url = http://www.epa.qld.gov.au/parks_and_forests/find_a_park_or_forest/fitzroy_island_national_park
+  | format = 
+  | doi = 
+  | accessdate = 2009-05-17}} {{Dead link|date=September 2010|bot=H3llBot}}</ref>
+
+As a Queensland National Park the natural and cultural resources of the Island itself (down to high tide) are protected by the [[Nature Conservation Act 1992]] and much of the island is therefore off-limits to visitors. Most visitors remain on the sheltered western side of the island, where the jetty, resort and best snorkeling can be found.
+
+==The island==
+[[File:welcomebay.jpg|thumb|Welcome Bay, Fitzroy Island]]Fitzroy Island is a [[Continental island#Continental islands|continental island]], not a [[Cay|coral cay]]. It became an island when sea levels rose at the end of the [[Last glacial period|last ice age]], flooding a plain between a hill that is now Fitzroy Island, and what is now [[Cape Grafton]]. Over the 10,000 years since that time, [[coral reef]]s have formed in the bay on the protected western side of the island, and lush [[rainforest]] on its shore.
+
+[[File:FitzroyBeach.JPG|thumb|left|Coral Beach, Fitzroy Island]]
+Fitzroy Island has been put to many uses by humankind. It is part of the traditional lands of the [[Gurabana Gungandji people]], who recorded its formation in myth, and was used as a hunting and fishing ground. In 1778, Lieutenant [[James Cook]] named the island after the family name of the [[Duke of Grafton]], who was the British Prime Minister when his ship, the [[HM Bark Endeavour|HMB ''Endeavour'']], had set sail. Through the 1800s, a [[Pearl hunting|pearling]] and [[beche-de-mer]] industry operated from the island. A [[giant clam]] research station remains in operation on Welcome Bay. The Island has also served as part an aboriginal mission in the early 1900s, an [[artillery]] gun emplacement in [[World War II]], and, more recently, a tourist resort.
+
+The Island has also been home to [[lighthouses]] warning ships in the Grafton Passage of the reefs around the island, and a small automatic light on Little Fitzroy Island, just off the north-east point, still serves this purpose. An inactive lighthouse sits on the point above, and is part of the circuit trail that is open to tourists.
+
+Fitzroy's isolation has resulted in a unique habitat, with few large mammals. The dominant predators on the island are reptiles; particularly [[Pythonidae|python]]s ([[Brown Tree Snake|brown]] and [[Green Tree Python|green]]), [[monitor lizards]] and the [[Egernia frerei|Major's skink]]. The latter of these is particularly common and will be seen frequently as a tourist wanders around the trails. There are no venomous snakes on the island, though python bites can become [[infection|infected]].
+
+==Walking trails==
+[[File:Lighthouse path.JPG|thumb|Walking Trail, Fitzroy Island]]
+There is a walking track that takes in the northern end of the island, the lighthouse on the north-west point which overlooks Little Fitzroy Island, and the island's peak, which offers stunning 360 degree views over the surrounding reefs and Cape Grafton. From the top, on a clear day it is possible to make out the Frankland Islands to the south. The trail then drops back down to the resort.
+
+''Nudey Beach'' can be accessed by heading along the trail at the southern end of the resort, and leads along the edge of the island through rainforest, with occasional glimpses out to Cape Grafton, and then descends to Nudey Beach, which was once a nude bathing beach, with some coral available for snorkelers.
+
+==Snorkeling==
+[[File:amphiprionpercula fitzroyis.jpg|thumb|Clownfish at Welcome Bay, Fitzroy Island]]
+The fringing reef is a fair distance from the shore at the northern end of Welcome Bay, where it starts at the quite prominent 'Bird Rock'. It runs almost all the way down to the jetty before there is a small gap where the boats come in. The reef starts again near the rocks at the southern end of the beach, and runs around the corner to Nudey Beach. Along this stretch it is extremely close to shore - literally just a few steps from the shore. The snorkelling at Fitzroy is greatly underrated. Visibility can be a bit low, especially after rough weather, but the coral is excellent and the variety of fish superb. The [[Percula clownfish|clownfish (''Amphiprion percula'')]] can be found, as well as other [[anemonefish]]. [[Parrotfish]] and [[wrasses]] are common, and [[green sea turtle]]s regularly frequent the bay.
+
+It is unlikely that [[chironex fleckeri|box jellyfish]] would be encountered at Fitzroy Island due to the 4&nbsp;km passage between the island and the mainland, but they have been found there occasionally, as well as other stinging jellyfish.
+
+==The resort==
+[[File:Sunset fitzroyisland.JPG|thumb|right|Sunset over Welcome Bay, Fitzroy Island]]Fitzroy Island Resort can be found on Welcome Bay.  Fitzroy Island Resort is a 60 minute ferry ride (about 30&nbsp;km) from Cairns in Queensland and is surrounded by a reef system that forms part of the Great Barrier Reef Marine Park.
+
+==See also==
+{{Portal|Queensland}}
+* [[Protected areas of Queensland]]
+* [[Great Barrier Reef]]
+
+== References ==
+{{reflist}}
+
+==External links==
+* [http://www.nrw.qld.gov.au/property/placenames/detail.php?id=39456 Queensland Placenames Listing for Fitzroy Island National Park] Accessed 16 November 2007
+
+{{Far North Queensland}}
+{{National Parks of Queensland}}
+
+[[Category:National parks of Far North Queensland]]
+[[Category:Islands of Queensland]]
+[[Category:Protected areas established in 1939]]
+[[Category:1939 establishments in Australia]]

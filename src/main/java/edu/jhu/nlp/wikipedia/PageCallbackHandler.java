@@ -11,7 +11,6 @@ package edu.jhu.nlp.wikipedia;
  * dumps like English and German.
  * 	
  * @author Delip Rao
- * @see WikiXMLDOMParser
  * @see WikiPage
  *
  */

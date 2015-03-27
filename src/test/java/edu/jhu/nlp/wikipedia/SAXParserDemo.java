@@ -1,5 +1,7 @@
 package edu.jhu.nlp.wikipedia;
 
+import java.net.MalformedURLException;
+
 /**
  * 
  * @author Jason Smith
@@ -17,10 +19,16 @@ public class SAXParserDemo {
 		}
 		
 		PageCallbackHandler handler = new DemoSAXHandler();
-		
-		WikiXMLParser wxsp = WikiXMLParserFactory.getSAXParser(args[0]);
-		
-		try {
+
+        WikiXMLParser wxsp = null;
+        try {
+            wxsp = WikiXMLParserFactory.getSAXParser(args[0]);
+        } catch (MalformedURLException e) {
+            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+            return;
+        }
+
+        try {
 			wxsp.setPageCallback(handler);
 			wxsp.parse();
 		}catch(Exception e) {
