@@ -34,6 +34,15 @@ public class WikiPage {
     }
 
     /**
+     * Set the wiki text, defaults to English.
+     * @param wtext
+     */
+    public void setWikiText(final String wtext) {
+        setWikiText(wtext, "en");
+    }
+
+
+    /**
      * @return a string containing the page title.
      */
     public String getTitle() {
