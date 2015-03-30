@@ -1,0 +1,67 @@
+{
+  "language": {
+    "en": {
+      "category": "Category",
+      "special" : "Special",
+      "portal" : "Portal",
+      "redirect" : "#REDIRECT",
+      "stub" : "stub"
+    },
+    "ar" : {
+      "category" : "تصنيف",
+      "special" : "",
+      "portal" : "بوابة",
+      "redirect" : "",
+      "stub" : ""
+    },
+    "es" : {
+      "category" : "Categoria",
+      "special" : "",
+      "portal" : "Portal",
+      "redirect" : "",
+      "stub" : ""
+    },
+    "fa" : {
+      "category" : "رده",
+      "special" : "",
+      "portal" : "درگاه",
+      "redirect" : "",
+      "stub" : ""
+    },
+    "fr" : {
+      "category" : "Catégorie",
+      "special" : "Spécial",
+      "portal" : "Portail",
+      "redirect" : "",
+      "stub" : ""
+    },
+    "de" : {
+      "category" : "Kategorie",
+      "special" : "",
+      "portal" : "",
+      "redirect" : "",
+      "stub" : ""
+    },
+    "zh" : {
+      "category" : "Category",
+      "special" : "Special",
+      "portal" : "Portal",
+      "redirect" : "",
+      "stub" : ""
+    },
+    "sv" : {
+      "category" : "Kategori",
+      "special" : "Special",
+      "portal" : "Portal",
+      "redirect" : "#OMDIRIGERING",
+      "stub" : "Stub"
+    },
+    "ru":{
+      "category" : "Категория",
+      "special" : "",
+      "portal" : "Портал",
+      "redirect" : "",
+      "stub" : ""
+    }
+  }
+}

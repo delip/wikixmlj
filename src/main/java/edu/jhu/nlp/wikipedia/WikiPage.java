@@ -40,6 +40,13 @@ public class WikiPage {
         return title;
     }
 
+    /**
+     * @return a string containing the page title.
+     */
+    public String getTranslatedTitle(String languageCode) {
+        return wikiTextParser.getTranslatedTitle(languageCode);
+    }
+
     private static Pattern disambCatPattern = Pattern.compile("\\(disambiguation\\)", Pattern.CASE_INSENSITIVE);
 
     /**

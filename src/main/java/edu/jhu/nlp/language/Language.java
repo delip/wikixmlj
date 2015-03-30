@@ -5,13 +5,20 @@ package edu.jhu.nlp.language;
  *
  */
 public class Language {
-  
-  // TODO: Define all language codes
+
+  // TODO: Define all languages
+  //
+  //
+  // language codes
   public static final String ARABIC = "ar";
   public static final String ENGLISH = "en";
   public static final String FARSI = "fa";
   public static final String FRENCH = "fr";
   public static final String GERMAN = "de";
   public static final String SPANISH = "es";
+  public static final String SWEDISH = "sv";
   public static final String CHINESE = "zh";
+
+
+
 }
