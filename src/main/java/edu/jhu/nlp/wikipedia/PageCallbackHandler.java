@@ -1,5 +1,7 @@
 package edu.jhu.nlp.wikipedia;
 
+import edu.jhu.nlp.language.Language;
+
 /**
  * 
  * Interface to allow streamed processing of pages. 
@@ -23,4 +25,5 @@ public interface PageCallbackHandler {
 	 * @see   WikiPage
 	 */
 	public void process(WikiPage page);
+
 }

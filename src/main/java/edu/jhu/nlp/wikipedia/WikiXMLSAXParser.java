@@ -1,5 +1,6 @@
 package edu.jhu.nlp.wikipedia;
 
+import edu.jhu.nlp.language.Language;
 import org.xml.sax.SAXException;
 import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.XMLReaderFactory;
@@ -18,16 +19,24 @@ public class WikiXMLSAXParser extends WikiXMLParser {
 
     private XMLReader xmlReader;
     private PageCallbackHandler pageHandler = null;
+    private String language = "en";
+
 
     public WikiXMLSAXParser(InputStream is){
         super(is);
         this.initReaderHandler();
     }
 
+    public WikiXMLSAXParser(URL fileName, String language) {
+        this(fileName);
+        this.language = language;
+    }
+
     public WikiXMLSAXParser(URL fileName) {
         super(fileName);
         this.initReaderHandler();
     }
+
 
     private void initReaderHandler(){
         try {
@@ -55,7 +64,7 @@ public class WikiXMLSAXParser extends WikiXMLParser {
      * @throws Exception
      */
     public void parse()  throws Exception  {
-        xmlReader.setContentHandler(new SAXPageCallbackHandler(pageHandler));
+        xmlReader.setContentHandler(new SAXPageCallbackHandler(pageHandler, language));
         xmlReader.parse(getInputSource());
     }
 

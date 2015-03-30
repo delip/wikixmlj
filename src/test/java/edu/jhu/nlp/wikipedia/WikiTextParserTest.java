@@ -32,7 +32,7 @@ public class WikiTextParserTest extends TestCase {
         WikiPage page = new WikiPage();
         new WikiTextParser(wtext);
         page.setTitle("Lexington");
-        page.setWikiText(wtext);
+        page.setWikiText(wtext, "en");
         assertTrue(page.isDisambiguationPage());
     }
 
@@ -43,7 +43,7 @@ public class WikiTextParserTest extends TestCase {
         WikiPage page = new WikiPage();
         new WikiTextParser(wtext);
         page.setTitle("Obama");
-        page.setWikiText(wtext);
+        page.setWikiText(wtext, "en");
         assertNotNull(page.getInfoBox());
         String text = page.getText();
         assertTrue(text.indexOf("{{Infobox") == -1);

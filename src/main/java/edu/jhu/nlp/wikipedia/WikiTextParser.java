@@ -1,5 +1,7 @@
 package edu.jhu.nlp.wikipedia;
 
+import edu.jhu.nlp.language.Language;
+
 import java.util.HashSet;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -16,15 +18,54 @@ public class WikiTextParser {
     private HashSet<String> pageLinks = null;
     private boolean redirect = false;
     private String redirectString = null;
-    private static Pattern redirectPattern = Pattern.compile("#REDIRECT\\s*\\[\\[(.*?)\\]\\]", Pattern.CASE_INSENSITIVE);
     private boolean stub = false;
     private boolean disambiguation = false;
-    private static Pattern stubPattern = Pattern.compile("\\-stub\\}\\}", Pattern.CASE_INSENSITIVE);
-    private static Pattern disambCatPattern = Pattern.compile("\\{\\{disambig\\}\\}", Pattern.CASE_INSENSITIVE);
+    private static Pattern redirectPattern = null;
+    private static Pattern stubPattern = null;
+    private static Pattern disambCatPattern = null;
     private InfoBox infoBox = null;
+    private Language language = null;
 
-    public WikiTextParser(String wtext) {
-        wikiText = wtext;
+    private static Pattern stylesPattern = Pattern.compile("\\{\\|.*?\\|\\}$", Pattern.MULTILINE | Pattern.DOTALL);
+    private static Pattern infoboxCleanupPattern = Pattern.compile("\\{\\{infobox.*?\\}\\}$", Pattern.MULTILINE | Pattern.DOTALL | Pattern.CASE_INSENSITIVE);
+    private static Pattern curlyCleanupPattern0 = Pattern.compile("^\\{\\{.*?\\}\\}$", Pattern.MULTILINE | Pattern.DOTALL);
+    private static Pattern curlyCleanupPattern1 = Pattern.compile("\\{\\{.*?\\}\\}", Pattern.MULTILINE | Pattern.DOTALL);
+    private static Pattern cleanupPattern0 = Pattern.compile("^\\[\\[.*?:.*?\\]\\]$", Pattern.MULTILINE | Pattern.DOTALL);
+    private static Pattern cleanupPattern1 = Pattern.compile("\\[\\[(.*?)\\]\\]", Pattern.MULTILINE | Pattern.DOTALL);
+    private static Pattern refCleanupPattern = Pattern.compile("<ref>.*?</ref>", Pattern.MULTILINE | Pattern.DOTALL);
+    private static Pattern commentsCleanupPattern = Pattern.compile("<!--.*?-->", Pattern.MULTILINE | Pattern.DOTALL);
+
+    /**
+     * Default constructor
+     * @param wikiText  The wiki text
+     * @param languageCode  the {@Language} of the currently parsed wikipedia
+     */
+    public WikiTextParser(String wikiText, String languageCode) {
+        this.wikiText = wikiText;
+        this.language = new Language(languageCode);
+        createPatterns();
+        findRedirect(wikiText);
+        Matcher matcher;
+        matcher = stubPattern.matcher(wikiText);
+        stub = matcher.find();
+        matcher = disambCatPattern.matcher(wikiText);
+        disambiguation = matcher.find();
+    }
+
+
+    /**
+     * Default constructor. When no language is given, defaults to English.
+     * @param wikiText
+     */
+    public WikiTextParser(String wikiText){
+        this(wikiText, "en");
+    }
+
+    /**
+     * Check for redirects
+     * @param wikiText  the currently parsed page
+     */
+    private void findRedirect(String wikiText) {
         Matcher matcher = redirectPattern.matcher(wikiText);
         if (matcher.find()) {
             redirect = true;
@@ -32,10 +73,14 @@ public class WikiTextParser {
                 redirectString = matcher.group(1);
             }
         }
-        matcher = stubPattern.matcher(wikiText);
-        stub = matcher.find();
-        matcher = disambCatPattern.matcher(wikiText);
-        disambiguation = matcher.find();
+    }
+    /**
+     * Create localized patterns (given the {@Language.LanguageCode} in the constructor) for redirects, stubs, etc.
+     */
+    private void createPatterns(){
+        redirectPattern = Pattern.compile("#"+language.getLocalizedRedirectLabel()+"\\s*\\[\\[(.*?)\\]\\]", Pattern.CASE_INSENSITIVE);
+        stubPattern = Pattern.compile("\\-"+language.getLocalizedStubLabel()+"\\}\\}", Pattern.CASE_INSENSITIVE);
+        disambCatPattern = Pattern.compile("\\{\\{"+language.getDisambiguationLabel()+"\\}\\}", Pattern.CASE_INSENSITIVE);
     }
 
     public boolean isRedirect() {
@@ -70,7 +115,7 @@ public class WikiTextParser {
 
     private void parseCategories() {
         pageCats = new HashSet<String>();
-        Pattern catPattern = Pattern.compile("\\[\\[Category:(.*?)\\]\\]", Pattern.MULTILINE | Pattern.CASE_INSENSITIVE);
+        Pattern catPattern = Pattern.compile("\\[\\["+language.getLocalizedCategoryLabel()+":(.*?)\\]\\]", Pattern.MULTILINE | Pattern.CASE_INSENSITIVE);
         Matcher matcher = catPattern.matcher(wikiText);
         while (matcher.find()) {
             String[] temp = matcher.group(1).split("\\|");
@@ -80,7 +125,6 @@ public class WikiTextParser {
 
     private void parseLinks() {
         pageLinks = new HashSet<String>();
-
         Pattern catPattern = Pattern.compile("\\[\\[(.*?)\\]\\]", Pattern.MULTILINE);
         Matcher matcher = catPattern.matcher(wikiText);
         while (matcher.find()) {
@@ -94,15 +138,6 @@ public class WikiTextParser {
             }
         }
     }
-
-    private static Pattern stylesPattern = Pattern.compile("\\{\\|.*?\\|\\}$", Pattern.MULTILINE | Pattern.DOTALL);
-    private static Pattern infoboxCleanupPattern = Pattern.compile("\\{\\{infobox.*?\\}\\}$", Pattern.MULTILINE | Pattern.DOTALL | Pattern.CASE_INSENSITIVE);
-    private static Pattern curlyCleanupPattern0 = Pattern.compile("^\\{\\{.*?\\}\\}$", Pattern.MULTILINE | Pattern.DOTALL);
-    private static Pattern curlyCleanupPattern1 = Pattern.compile("\\{\\{.*?\\}\\}", Pattern.MULTILINE | Pattern.DOTALL);
-    private static Pattern cleanupPattern0 = Pattern.compile("^\\[\\[.*?:.*?\\]\\]$", Pattern.MULTILINE | Pattern.DOTALL);
-    private static Pattern cleanupPattern1 = Pattern.compile("\\[\\[(.*?)\\]\\]", Pattern.MULTILINE | Pattern.DOTALL);
-    private static Pattern refCleanupPattern = Pattern.compile("<ref>.*?</ref>", Pattern.MULTILINE | Pattern.DOTALL);
-    private static Pattern commentsCleanupPattern = Pattern.compile("<!--.*?-->", Pattern.MULTILINE | Pattern.DOTALL);
 
     public String getPlainText() {
         String text = wikiText.replaceAll("&gt;", ">");

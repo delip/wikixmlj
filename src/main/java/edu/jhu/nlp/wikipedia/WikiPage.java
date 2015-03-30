@@ -29,8 +29,8 @@ public class WikiPage {
      *
      * @param wtext wiki-formatted text
      */
-    public void setWikiText(final String wtext) {
-        wikiTextParser = new WikiTextParser(wtext);
+    public void setWikiText(final String wtext, String languageCode) {
+        wikiTextParser = new WikiTextParser(wtext, languageCode);
     }
 
     /**
@@ -57,7 +57,7 @@ public class WikiPage {
     }
 
     /**
-     * @return true for "special pages" -- like Category:, Wikipedia:, etc
+     * @return true for "localizedSpecialLabel pages" -- like Category:, Wikipedia:, etc
      */
     public boolean isSpecialPage() {
         return title.indexOf(':') > 0;
@@ -81,7 +81,7 @@ public class WikiPage {
     }
 
     /**
-     * @return true if this is a stub page
+     * @return true if this is a localizedStubLabel page
      */
     public boolean isStub() {
         return wikiTextParser.isStub();
