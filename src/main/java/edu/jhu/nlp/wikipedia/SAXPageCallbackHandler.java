@@ -19,9 +19,12 @@ public class SAXPageCallbackHandler extends DefaultHandler {
     private StringBuilder currentWikitext;
     private StringBuilder currentTitle;
     private StringBuilder currentID;
+    private String language = null;
 
-    public SAXPageCallbackHandler(PageCallbackHandler ph){
-        pageHandler = ph;
+
+    public SAXPageCallbackHandler(PageCallbackHandler pageHandler, String language){
+        this.pageHandler = pageHandler;
+        this.language = language;
     }
 
     @Override
@@ -40,7 +43,7 @@ public class SAXPageCallbackHandler extends DefaultHandler {
         if (qName.equals("page")){
             currentPage.setTitle(currentTitle.toString());
             currentPage.setID(currentID.toString());
-            currentPage.setWikiText(currentWikitext.toString());
+            currentPage.setWikiText(currentWikitext.toString(), language);
             pageHandler.process(currentPage);
         }
         if (qName.equals("mediawiki"))

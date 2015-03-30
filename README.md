@@ -71,4 +71,5 @@ Optionally uses bzip2 code refactored by Kohsuke Kawaguchi from Apache's Ant pro
 Contributors
 ------------
 Jason Smith<br>
-Itamar Syn-Hershko (@synhershko)
+Itamar Syn-Hershko (@synhershko)<br>
+[Alan Said](http://github.com/alansaid) ([@alansaid](http://twitter.com/alansaid))

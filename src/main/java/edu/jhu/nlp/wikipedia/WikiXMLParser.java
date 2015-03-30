@@ -1,5 +1,6 @@
 package edu.jhu.nlp.wikipedia;
 
+import edu.jhu.nlp.language.Language;
 import org.apache.tools.bzip2.CBZip2InputStream;
 import org.xml.sax.InputSource;
 
@@ -25,7 +26,6 @@ public abstract class WikiXMLParser
     public WikiXMLParser(URL fileName) {
         wikiXMLFile = fileName;
     }
-
     public WikiXMLParser(InputStream is) {
         this.is = is;
     }

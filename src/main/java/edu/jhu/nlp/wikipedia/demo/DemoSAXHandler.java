@@ -1,5 +1,7 @@
-package edu.jhu.nlp.wikipedia;
+package edu.jhu.nlp.wikipedia.demo;
 
+import edu.jhu.nlp.wikipedia.PageCallbackHandler;
+import edu.jhu.nlp.wikipedia.WikiPage;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
