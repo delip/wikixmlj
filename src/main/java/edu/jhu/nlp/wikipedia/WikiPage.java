@@ -1,5 +1,7 @@
 package edu.jhu.nlp.wikipedia;
 
+import edu.jhu.nlp.language.Language;
+
 import java.util.HashSet;
 import java.util.regex.Pattern;
 
@@ -13,6 +15,10 @@ public class WikiPage {
     private String title = null;
     private WikiTextParser wikiTextParser = null;
     private String id = null;
+    private Language language = null;
+    private Pattern disambCatPattern = null; //Pattern.compile("\\("+language.getDisambiguationLabel()+"\\)", Pattern.CASE_INSENSITIVE);
+    private Pattern categoryPattern = null; //Pattern.compile( language.getLocalizedCategoryLabel()+ "\\W\\w+", Pattern.CASE_INSENSITIVE);
+
 
     /**
      * Set the page title. This is not intended for direct use.
@@ -31,6 +37,9 @@ public class WikiPage {
      */
     public void setWikiText(final String wtext, String languageCode) {
         wikiTextParser = new WikiTextParser(wtext, languageCode);
+        this.language = new Language(languageCode);
+        disambCatPattern = Pattern.compile("\\("+language.getDisambiguationLabel()+"\\)", Pattern.CASE_INSENSITIVE);
+        categoryPattern = Pattern.compile( language.getLocalizedCategoryLabel()+ ":\\S+(\\s*\\S+)*", Pattern.CASE_INSENSITIVE);
     }
 
     /**
@@ -56,7 +65,6 @@ public class WikiPage {
         return wikiTextParser.getTranslatedTitle(languageCode);
     }
 
-    private static Pattern disambCatPattern = Pattern.compile("\\(disambiguation\\)", Pattern.CASE_INSENSITIVE);
 
     /**
      * @return true if this a disambiguation page.
@@ -69,7 +77,22 @@ public class WikiPage {
      * @return true for "localizedSpecialLabel pages" -- like Category:, Wikipedia:, etc
      */
     public boolean isSpecialPage() {
-        return title.indexOf(':') > 0;
+        return isCategoryPage() && isRedirect() && isDisambiguationPage() && isNotContentPage();
+//        return title.indexOf(':') > 0;
+    }
+
+    /**
+     * @return true for category pages.
+     */
+    public boolean isCategoryPage(){
+        return categoryPattern.matcher(title).matches();
+    }
+
+    /**
+     * @return true for non content pages not.
+     */
+    private boolean isNotContentPage(){
+        return title.startsWith("Wikipedia:") && title.startsWith("File:");
     }
 
     /**

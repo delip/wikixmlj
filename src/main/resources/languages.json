@@ -5,14 +5,16 @@
     "portal" : "Portal",
     "redirect" : "#REDIRECT",
     "stub" : "stub",
-    "disambiguation" : "disambig"
+    "disambiguation" : "disambig",
+    "list" : "List of"
   },
   "ar" : {
     "category" : "تصنيف",
     "special" : "",
     "portal" : "بوابة",
     "redirect" : "",
-    "stub" : ""
+    "stub" : "",
+    "list" : ""
   },
   "es" : {
     "category" : "Categoria",
@@ -20,6 +22,7 @@
     "portal" : "Portal",
     "redirect" : "",
     "stub" : ""
+    "list" : ""
   },
   "fa" : {
     "category" : "رده",
@@ -27,40 +30,46 @@
     "portal" : "درگاه",
     "redirect" : "",
     "stub" : ""
+    "list" : ""
   },
   "fr" : {
     "category" : "Catégorie",
     "special" : "Spécial",
     "portal" : "Portail",
     "redirect" : "",
-    "stub" : ""
+    "stub" : "",
+    "list" : ""
   },
   "de" : {
     "category" : "Kategorie",
     "special" : "",
     "portal" : "",
     "redirect" : "",
-    "stub" : ""
+    "stub" : "",
+    "list" : ""
   },
   "zh" : {
     "category" : "Category",
     "special" : "Special",
     "portal" : "Portal",
     "redirect" : "",
-    "stub" : ""
+    "stub" : "",
+    "list" : ""
   },
   "sv" : {
     "category" : "Kategori",
     "special" : "Special",
     "portal" : "Portal",
     "redirect" : "#OMDIRIGERING",
-    "stub" : "Stub"
+    "stub" : "Stub",
+    "list" : ""
   },
   "ru":{
     "category" : "Категория",
     "special" : "",
     "portal" : "Портал",
     "redirect" : "",
-    "stub" : ""
+    "stub" : "",
+    "list" : ""
   }
 }

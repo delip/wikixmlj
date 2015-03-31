@@ -35,7 +35,7 @@ public class Language {
    * @param languageCode the language code of the wikipedia, e.g. "en" for English, "de" for German, "zh" for Chinese.
    */
   public Language(String languageCode){
-    JSONObject jobj = getJsonObject("en");
+    JSONObject jobj = getJsonObject(languageCode);
     this.localizedCategoryLabel = (String) jobj.get(CATEGORY);
     this.localizedSpecialLabel = (String) jobj.get(SPECIAL);
     this.localizedPortalLabel = (String) jobj.get(PORTAL);

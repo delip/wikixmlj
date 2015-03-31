@@ -20,9 +20,11 @@ public class WikiTextParser {
     private String redirectString = null;
     private boolean stub = false;
     private boolean disambiguation = false;
+    private boolean category = false;
     private static Pattern redirectPattern = null;
     private static Pattern stubPattern = null;
-    private static Pattern disambCatPattern = null;
+    private static Pattern disambiguationPattern = null;
+    private static Pattern categoryPattern = null;
     private InfoBox infoBox = null;
     private Language language = null;
 
@@ -48,7 +50,7 @@ public class WikiTextParser {
         Matcher matcher;
         matcher = stubPattern.matcher(wikiText);
         stub = matcher.find();
-        matcher = disambCatPattern.matcher(wikiText);
+        matcher = disambiguationPattern.matcher(wikiText);
         disambiguation = matcher.find();
     }
 
@@ -80,12 +82,17 @@ public class WikiTextParser {
     private void createPatterns(){
         redirectPattern = Pattern.compile("#"+language.getLocalizedRedirectLabel()+"\\s*\\[\\[(.*?)\\]\\]", Pattern.CASE_INSENSITIVE);
         stubPattern = Pattern.compile("\\-"+language.getLocalizedStubLabel()+"\\}\\}", Pattern.CASE_INSENSITIVE);
-        disambCatPattern = Pattern.compile("\\{\\{"+language.getDisambiguationLabel()+"\\}\\}", Pattern.CASE_INSENSITIVE);
+        disambiguationPattern = Pattern.compile("\\{\\{"+language.getDisambiguationLabel()+"\\}\\}", Pattern.CASE_INSENSITIVE);
     }
 
     public boolean isRedirect() {
         return redirect;
     }
+
+    public boolean isCategory() {
+        return category;
+    }
+
 
     public boolean isStub() {
         return stub;
