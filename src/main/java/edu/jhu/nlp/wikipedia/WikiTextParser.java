@@ -141,11 +141,28 @@ public class WikiTextParser {
 
     /**
      * Return only the unformatted text body. Heading markers are omitted.
-     * //ToDo: remove "References", "Notes" and "See Also" sections (in all languages).
+     * //ToDo: remove "References", "Notes", "Further Reading" and "See Also" sections (in all languages).
      * @return the unformatted text body
      */
     public String getTextBody() {
         String text = getPlainText();
+        text = stripBottomInfo(text, language.seealsoLabel);
+        text = stripBottomInfo(text, language.furtherLabel);
+        text = stripBottomInfo(text, language.referenceLabel);
+        text = stripBottomInfo(text, language.notesLabel);
+        text = cleanHeadings(text);
+        return text;
+    }
+
+    private String stripBottomInfo(String text, String label) {
+        Pattern bottomPattern = Pattern.compile("^=*\\s?" + label + "\\s?=*$", Pattern.CASE_INSENSITIVE | Pattern.MULTILINE);
+        Matcher matcher = bottomPattern.matcher(text);
+        if(matcher.find())
+            text = text.substring(0, matcher.start());
+        return text;
+    }
+
+    private String cleanHeadings(String text) {
         Pattern startHeadingPattern = Pattern.compile("^=*", Pattern.MULTILINE);
         Pattern endHeadingPattern = Pattern.compile("=*$", Pattern.MULTILINE);
         text = startHeadingPattern.matcher(text).replaceAll("");

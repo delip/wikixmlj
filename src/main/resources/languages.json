@@ -6,7 +6,11 @@
     "redirect" : "#REDIRECT",
     "stub" : "stub",
     "disambiguation" : "disambig",
-    "list" : "List of"
+    "list" : "List of",
+    "references" : "References",
+    "further" : "Further reading",
+    "seealso" : "See also",
+    "notes": "Notes"
   },
   "ar" : {
     "category" : "تصنيف",

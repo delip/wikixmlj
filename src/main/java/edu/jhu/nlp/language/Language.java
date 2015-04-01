@@ -21,13 +21,22 @@ public class Language {
   public String localizedRedirectLabel;
   public String localizedStubLabel;
   public String disambiguationLabel;
+  public String referenceLabel;
+  public String furtherLabel;
+  public String seealsoLabel;
+  public String notesLabel;
+
 
   private static final String CATEGORY = "category";
   private static final String SPECIAL = "special";
   private static final String PORTAL = "portal";
   private static final String REDIRECT = "redirect";
   private static final String STUB = "stub";
-  public static final String DISAMBIGUATION = "disambiguation";
+  private static final String DISAMBIGUATION = "disambiguation";
+  private static final String REFERENCES = "references";
+  private static final String FURTHER = "further";
+  private static final String SEEALSO = "seealso";
+  private static final String NOTES = "notes";
 
 
   /**
@@ -42,6 +51,10 @@ public class Language {
     this.localizedRedirectLabel = (String) jobj.get(REDIRECT);
     this.localizedStubLabel = (String) jobj.get(STUB);
     this.disambiguationLabel = (String) jobj.get(DISAMBIGUATION);
+    this.referenceLabel = (String) jobj.get(REFERENCES);
+    this.furtherLabel = (String) jobj.get(FURTHER);
+    this.seealsoLabel = (String) jobj.get(SEEALSO);
+    this.notesLabel = (String) jobj.get(NOTES);
   }
 
   /**
