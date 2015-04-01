@@ -141,7 +141,6 @@ public class WikiTextParser {
 
     /**
      * Return only the unformatted text body. Heading markers are omitted.
-     * //ToDo: remove "References", "Notes", "Further Reading" and "See Also" sections (in all languages).
      * @return the unformatted text body
      */
     public String getTextBody() {
