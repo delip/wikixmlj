@@ -15,12 +15,12 @@ import java.util.Enumeration;
  */
 public class Language {
 
-  public static String localizedCategoryLabel;
-  public static String localizedSpecialLabel;
-  public static String localizedPortalLabel;
-  public static String localizedRedirectLabel;
-  public static String localizedStubLabel;
-  public static String disambiguationLabel;
+  public String localizedCategoryLabel;
+  public String localizedSpecialLabel;
+  public String localizedPortalLabel;
+  public String localizedRedirectLabel;
+  public String localizedStubLabel;
+  public String disambiguationLabel;
 
   private static final String CATEGORY = "category";
   private static final String SPECIAL = "special";
@@ -62,27 +62,27 @@ public class Language {
     }
     return jobj;
   }
-  public static String getLocalizedCategoryLabel() {
+  public String getLocalizedCategoryLabel() {
     return localizedCategoryLabel;
   }
 
-  public static String getLocalizedSpecialLabel() {
+  public String getLocalizedSpecialLabel() {
     return localizedSpecialLabel;
   }
 
-  public static String getLocalizedPortalLabel() {
+  public String getLocalizedPortalLabel() {
     return localizedPortalLabel;
   }
 
-  public static String getLocalizedRedirectLabel() {
+  public String getLocalizedRedirectLabel() {
     return localizedRedirectLabel;
   }
 
-  public static String getLocalizedStubLabel() {
+  public String getLocalizedStubLabel() {
     return localizedStubLabel;
   }
 
-  public static String getDisambiguationLabel() {
+  public String getDisambiguationLabel() {
     return disambiguationLabel;
   }
 

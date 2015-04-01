@@ -20,11 +20,9 @@ public class WikiTextParser {
     private String redirectString = null;
     private boolean stub = false;
     private boolean disambiguation = false;
-    private boolean category = false;
     private static Pattern redirectPattern = null;
     private static Pattern stubPattern = null;
     private static Pattern disambiguationPattern = null;
-    private static Pattern categoryPattern = null;
     private InfoBox infoBox = null;
     private Language language = null;
 
@@ -40,7 +38,7 @@ public class WikiTextParser {
     /**
      * Default constructor
      * @param wikiText  The wiki text
-     * @param languageCode  the {@Language} of the currently parsed wikipedia
+     * @param languageCode  the language of the currently parsed wikipedia
      */
     public WikiTextParser(String wikiText, String languageCode) {
         this.wikiText = wikiText;
@@ -57,7 +55,7 @@ public class WikiTextParser {
 
     /**
      * Default constructor. When no language is given, defaults to English.
-     * @param wikiText
+     * @param wikiText the wiki text
      */
     public WikiTextParser(String wikiText){
         this(wikiText, "en");
@@ -77,7 +75,7 @@ public class WikiTextParser {
         }
     }
     /**
-     * Create localized patterns (given the {@Language.LanguageCode} in the constructor) for redirects, stubs, etc.
+     * Create localized patterns (given the language in the constructor) for redirects, stubs, etc.
      */
     private void createPatterns(){
         redirectPattern = Pattern.compile("#"+language.getLocalizedRedirectLabel()+"\\s*\\[\\[(.*?)\\]\\]", Pattern.CASE_INSENSITIVE);
@@ -88,11 +86,6 @@ public class WikiTextParser {
     public boolean isRedirect() {
         return redirect;
     }
-
-    public boolean isCategory() {
-        return category;
-    }
-
 
     public boolean isStub() {
         return stub;
@@ -136,11 +129,11 @@ public class WikiTextParser {
         Matcher matcher = catPattern.matcher(wikiText);
         while (matcher.find()) {
             String[] temp = matcher.group(1).split("\\|");
-            if (temp == null || temp.length == 0) {
+            if (temp.length == 0) {
                 continue;
             }
             String link = temp[0];
-            if (link.contains(":") == false) {
+            if (!link.contains(":")) {
                 pageLinks.add(link);
             }
         }
@@ -249,6 +242,7 @@ public class WikiTextParser {
         Pattern pattern = Pattern.compile("^\\[\\[" + languageCode + ":(.*?)\\]\\]$", Pattern.MULTILINE);
         Matcher matcher = pattern.matcher(wikiText);
         if (matcher.find()) {
+
             return matcher.group(1);
         }
         return null;
