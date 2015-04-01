@@ -139,6 +139,20 @@ public class WikiTextParser {
         }
     }
 
+    /**
+     * Return only the unformatted text body. Heading markers are omitted.
+     * //ToDo: remove References, Notes and See Also sections.
+     * @return the unformatted text body
+     */
+    public String getTextBody() {
+        String text = getPlainText();
+        Pattern startHeadingPattern = Pattern.compile("^=*", Pattern.MULTILINE);
+        Pattern endHeadingPattern = Pattern.compile("=*$", Pattern.MULTILINE);
+        text = startHeadingPattern.matcher(text).replaceAll("");
+        text = endHeadingPattern.matcher(text).replaceAll("");
+        return text;
+    }
+
     public String getPlainText() {
         String text = wikiText.replaceAll("&gt;", ">");
         text = text.replaceAll("&lt;", "<");
@@ -170,6 +184,8 @@ public class WikiTextParser {
         text = text.replaceAll("'{2,}", "");
         return text.trim();
     }
+
+
 
     public InfoBox getInfoBox() throws WikiTextParserException {
         //parseInfoBox is expensive. Doing it only once like other parse* methods

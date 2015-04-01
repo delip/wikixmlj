@@ -39,7 +39,7 @@ public class WikiPage {
         wikiTextParser = new WikiTextParser(wtext, languageCode);
         this.language = new Language(languageCode);
         disambCatPattern = Pattern.compile("\\("+language.getDisambiguationLabel()+"\\)", Pattern.CASE_INSENSITIVE);
-        categoryPattern = Pattern.compile( language.getLocalizedCategoryLabel()+ ":\\S+(\\s*\\S+)*", Pattern.CASE_INSENSITIVE);
+        categoryPattern = Pattern.compile(language.getLocalizedCategoryLabel() + ":\\S+(\\s*\\S+)*", Pattern.CASE_INSENSITIVE);
     }
 
     /**
@@ -131,6 +131,10 @@ public class WikiPage {
      */
     public String getText() {
         return wikiTextParser.getPlainText();
+    }
+
+    public String getTextBody() {
+        return wikiTextParser.getTextBody();
     }
 
     /**
