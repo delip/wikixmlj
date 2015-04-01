@@ -153,6 +153,13 @@ public class WikiTextParser {
         return text;
     }
 
+    /**
+     * Strips any content following a specific heading, e.g. "See also", "References", "Notes", etc.
+     * Everything following this heading (including the heading) is cut from the text.
+     * @param text The wiki page text
+     * @param label the heading label to cut
+     * @return  the processed wiki text
+     */
     private String stripBottomInfo(String text, String label) {
         Pattern bottomPattern = Pattern.compile("^=*\\s?" + label + "\\s?=*$", Pattern.CASE_INSENSITIVE | Pattern.MULTILINE);
         Matcher matcher = bottomPattern.matcher(text);
@@ -161,6 +168,11 @@ public class WikiTextParser {
         return text;
     }
 
+    /**
+     * Cleans the surrounding annotations on headings (e.g. "==" or "==="). Leaves the heading word intact.
+     * @param text  the wiki text
+     * @return  the processed text
+     */
     private String cleanHeadings(String text) {
         Pattern startHeadingPattern = Pattern.compile("^=*", Pattern.MULTILINE);
         Pattern endHeadingPattern = Pattern.compile("=*$", Pattern.MULTILINE);
