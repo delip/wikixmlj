@@ -18,23 +18,35 @@
     "portal" : "بوابة",
     "redirect" : "",
     "stub" : "",
-    "list" : ""
+    "list" : "",
+    "references" : "",
+    "further" : "",
+    "seealso" : "",
+    "notes": ""
   },
   "es" : {
     "category" : "Categoria",
     "special" : "",
     "portal" : "Portal",
     "redirect" : "",
-    "stub" : ""
-    "list" : ""
+    "stub" : "",
+    "list" : "",
+    "references" : "",
+    "further" : "",
+    "seealso" : "",
+    "notes": ""
   },
   "fa" : {
     "category" : "رده",
     "special" : "",
     "portal" : "درگاه",
     "redirect" : "",
-    "stub" : ""
-    "list" : ""
+    "stub" : "",
+    "list" : "",
+    "references" : "",
+    "further" : "",
+    "seealso" : "",
+    "notes": ""
   },
   "fr" : {
     "category" : "Catégorie",
@@ -42,7 +54,11 @@
     "portal" : "Portail",
     "redirect" : "",
     "stub" : "",
-    "list" : ""
+    "list" : "",
+    "references" : "",
+    "further" : "",
+    "seealso" : "",
+    "notes": ""
   },
   "de" : {
     "category" : "Kategorie",
@@ -50,7 +66,11 @@
     "portal" : "",
     "redirect" : "",
     "stub" : "",
-    "list" : ""
+    "list" : "",
+    "references" : "",
+    "further" : "",
+    "seealso" : "",
+    "notes": ""
   },
   "zh" : {
     "category" : "Category",
@@ -58,7 +78,11 @@
     "portal" : "Portal",
     "redirect" : "",
     "stub" : "",
-    "list" : ""
+    "list" : "",
+    "references" : "",
+    "further" : "",
+    "seealso" : "",
+    "notes": ""
   },
   "sv" : {
     "category" : "Kategori",
@@ -66,7 +90,11 @@
     "portal" : "Portal",
     "redirect" : "#OMDIRIGERING",
     "stub" : "Stub",
-    "list" : ""
+    "list" : "",
+    "references" : "Källor",
+    "further" : "",
+    "seealso" : "Se även",
+    "notes": "Noter"
   },
   "ru":{
     "category" : "Категория",
@@ -74,6 +102,10 @@
     "portal" : "Портал",
     "redirect" : "",
     "stub" : "",
-    "list" : ""
+    "list" : "",
+    "references" : "",
+    "further" : "",
+    "seealso" : "",
+    "notes": ""
   }
 }
