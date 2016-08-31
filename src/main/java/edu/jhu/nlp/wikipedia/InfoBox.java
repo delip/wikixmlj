@@ -20,4 +20,7 @@ public class InfoBox {
 	public String dumpRaw() {
 		return infoBoxWikiText;
 	}
+	public boolean isEmpty() {
+		return infoBoxWikiText.isEmpty();
+	}
 }
