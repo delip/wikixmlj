@@ -72,4 +72,5 @@ Contributors
 ------------
 Jason Smith<br>
 Itamar Syn-Hershko (@synhershko)<br>
-[Alan Said](http://github.com/alansaid) ([@alansaid](http://twitter.com/alansaid))
+[Alan Said](http://github.com/alansaid) ([@alansaid](http://twitter.com/alansaid))  
+[Victor Olivares](http://github.com/treedust)  
