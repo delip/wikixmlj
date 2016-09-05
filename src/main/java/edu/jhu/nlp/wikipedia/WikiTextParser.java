@@ -226,7 +226,8 @@ public class WikiTextParser {
     private InfoBox parseInfoBox() throws WikiTextParserException {
         final String INFOBOX_CONST_STR = "{{Infobox";
         int startPos = wikiText.indexOf(INFOBOX_CONST_STR);
-        if (startPos < 0) return null;
+        //if (startPos < 0) return null;
+        if (startPos < 0) return new InfoBox(null);
         int bracketCount = 2;
         int endPos = startPos + INFOBOX_CONST_STR.length();
         for (; endPos < wikiText.length(); endPos++) {
