@@ -22,7 +22,7 @@ public class WikiTextParser {
     private boolean disambiguation = false;
     private static Pattern redirectPattern = null;
     private static Pattern stubPattern = null;
-    private static Pattern disambCatPattern = null;
+    private static Pattern disambiguationPattern = null;
     private InfoBox infoBox = null;
     private Language language = null;
 
@@ -38,7 +38,7 @@ public class WikiTextParser {
     /**
      * Default constructor
      * @param wikiText  The wiki text
-     * @param languageCode  the {@Language} of the currently parsed wikipedia
+     * @param languageCode  the language of the currently parsed wikipedia
      */
     public WikiTextParser(String wikiText, String languageCode) {
         this.wikiText = wikiText;
@@ -48,14 +48,14 @@ public class WikiTextParser {
         Matcher matcher;
         matcher = stubPattern.matcher(wikiText);
         stub = matcher.find();
-        matcher = disambCatPattern.matcher(wikiText);
+        matcher = disambiguationPattern.matcher(wikiText);
         disambiguation = matcher.find();
     }
 
 
     /**
      * Default constructor. When no language is given, defaults to English.
-     * @param wikiText
+     * @param wikiText the wiki text
      */
     public WikiTextParser(String wikiText){
         this(wikiText, "en");
@@ -75,12 +75,12 @@ public class WikiTextParser {
         }
     }
     /**
-     * Create localized patterns (given the {@Language.LanguageCode} in the constructor) for redirects, stubs, etc.
+     * Create localized patterns (given the language in the constructor) for redirects, stubs, etc.
      */
     private void createPatterns(){
         redirectPattern = Pattern.compile("#"+language.getLocalizedRedirectLabel()+"\\s*\\[\\[(.*?)\\]\\]", Pattern.CASE_INSENSITIVE);
         stubPattern = Pattern.compile("\\-"+language.getLocalizedStubLabel()+"\\}\\}", Pattern.CASE_INSENSITIVE);
-        disambCatPattern = Pattern.compile("\\{\\{"+language.getDisambiguationLabel()+"\\}\\}", Pattern.CASE_INSENSITIVE);
+        disambiguationPattern = Pattern.compile("\\{\\{"+language.getDisambiguationLabel()+"\\}\\}", Pattern.CASE_INSENSITIVE);
     }
 
     public boolean isRedirect() {
@@ -129,14 +129,56 @@ public class WikiTextParser {
         Matcher matcher = catPattern.matcher(wikiText);
         while (matcher.find()) {
             String[] temp = matcher.group(1).split("\\|");
-            if (temp == null || temp.length == 0) {
+            if (temp.length == 0) {
                 continue;
             }
             String link = temp[0];
-            if (link.contains(":") == false) {
+            if (!link.contains(":")) {
                 pageLinks.add(link);
             }
         }
+    }
+
+    /**
+     * Return only the unformatted text body. Heading markers are omitted.
+     * @return the unformatted text body
+     */
+    public String getTextBody() {
+        String text = getPlainText();
+        text = stripBottomInfo(text, language.seealsoLabel);
+        text = stripBottomInfo(text, language.furtherLabel);
+        text = stripBottomInfo(text, language.referenceLabel);
+        text = stripBottomInfo(text, language.notesLabel);
+        text = cleanHeadings(text);
+        return text;
+    }
+
+    /**
+     * Strips any content following a specific heading, e.g. "See also", "References", "Notes", etc.
+     * Everything following this heading (including the heading) is cut from the text.
+     * @param text The wiki page text
+     * @param label the heading label to cut
+     * @return  the processed wiki text
+     */
+    private String stripBottomInfo(String text, String label) {
+        Pattern bottomPattern = Pattern.compile("^=*\\s?" + label + "\\s?=*$", Pattern.CASE_INSENSITIVE | Pattern.MULTILINE);
+        Matcher matcher = bottomPattern.matcher(text);
+        if(matcher.find())
+            text = text.substring(0, matcher.start());
+        return text;
+    }
+
+    /**
+     * Cleans the surrounding annotations on headings (e.g. "==" or "==="). Leaves the heading word intact.
+     * @param text  the wiki text
+     * @return  the processed text
+     */
+    private String cleanHeadings(String text) {
+        Pattern startHeadingPattern = Pattern.compile("^=*", Pattern.MULTILINE);
+        Pattern endHeadingPattern = Pattern.compile("=*$", Pattern.MULTILINE);
+        text = startHeadingPattern.matcher(text).replaceAll("");
+        text = endHeadingPattern.matcher(text).replaceAll("");
+        return text;
     }
 
     public String getPlainText() {
@@ -170,6 +212,8 @@ public class WikiTextParser {
         text = text.replaceAll("'{2,}", "");
         return text.trim();
     }
+
+
 
     public InfoBox getInfoBox() throws WikiTextParserException {
         //parseInfoBox is expensive. Doing it only once like other parse* methods
@@ -242,6 +286,7 @@ public class WikiTextParser {
         Pattern pattern = Pattern.compile("^\\[\\[" + languageCode + ":(.*?)\\]\\]$", Pattern.MULTILINE);
         Matcher matcher = pattern.matcher(wikiText);
         if (matcher.find()) {
+
             return matcher.group(1);
         }
         return null;

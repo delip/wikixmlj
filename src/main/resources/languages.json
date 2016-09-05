@@ -5,62 +5,107 @@
     "portal" : "Portal",
     "redirect" : "#REDIRECT",
     "stub" : "stub",
-    "disambiguation" : "disambig"
+    "disambiguation" : "disambig",
+    "list" : "List of",
+    "references" : "References",
+    "further" : "Further reading",
+    "seealso" : "See also",
+    "notes": "Notes"
   },
   "ar" : {
     "category" : "تصنيف",
     "special" : "",
     "portal" : "بوابة",
     "redirect" : "",
-    "stub" : ""
+    "stub" : "",
+    "list" : "",
+    "references" : "",
+    "further" : "",
+    "seealso" : "",
+    "notes": ""
   },
   "es" : {
     "category" : "Categoria",
     "special" : "",
     "portal" : "Portal",
     "redirect" : "",
-    "stub" : ""
+    "stub" : "",
+    "list" : "",
+    "references" : "",
+    "further" : "",
+    "seealso" : "",
+    "notes": ""
   },
   "fa" : {
     "category" : "رده",
     "special" : "",
     "portal" : "درگاه",
     "redirect" : "",
-    "stub" : ""
+    "stub" : "",
+    "list" : "",
+    "references" : "",
+    "further" : "",
+    "seealso" : "",
+    "notes": ""
   },
   "fr" : {
     "category" : "Catégorie",
     "special" : "Spécial",
     "portal" : "Portail",
     "redirect" : "",
-    "stub" : ""
+    "stub" : "",
+    "list" : "",
+    "references" : "",
+    "further" : "",
+    "seealso" : "",
+    "notes": ""
   },
   "de" : {
     "category" : "Kategorie",
     "special" : "",
     "portal" : "",
     "redirect" : "",
-    "stub" : ""
+    "stub" : "",
+    "list" : "",
+    "references" : "",
+    "further" : "",
+    "seealso" : "",
+    "notes": ""
   },
   "zh" : {
     "category" : "Category",
     "special" : "Special",
     "portal" : "Portal",
     "redirect" : "",
-    "stub" : ""
+    "stub" : "",
+    "list" : "",
+    "references" : "",
+    "further" : "",
+    "seealso" : "",
+    "notes": ""
   },
   "sv" : {
     "category" : "Kategori",
     "special" : "Special",
     "portal" : "Portal",
     "redirect" : "#OMDIRIGERING",
-    "stub" : "Stub"
+    "stub" : "Stub",
+    "list" : "",
+    "references" : "Källor",
+    "further" : "",
+    "seealso" : "Se även",
+    "notes": "Noter"
   },
   "ru":{
     "category" : "Категория",
     "special" : "",
     "portal" : "Портал",
     "redirect" : "",
-    "stub" : ""
+    "stub" : "",
+    "list" : "",
+    "references" : "",
+    "further" : "",
+    "seealso" : "",
+    "notes": ""
   }
 }

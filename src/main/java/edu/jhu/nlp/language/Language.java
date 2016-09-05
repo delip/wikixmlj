@@ -15,19 +15,28 @@ import java.util.Enumeration;
  */
 public class Language {
 
-  public static String localizedCategoryLabel;
-  public static String localizedSpecialLabel;
-  public static String localizedPortalLabel;
-  public static String localizedRedirectLabel;
-  public static String localizedStubLabel;
-  public static String disambiguationLabel;
+  public String localizedCategoryLabel;
+  public String localizedSpecialLabel;
+  public String localizedPortalLabel;
+  public String localizedRedirectLabel;
+  public String localizedStubLabel;
+  public String disambiguationLabel;
+  public String referenceLabel;
+  public String furtherLabel;
+  public String seealsoLabel;
+  public String notesLabel;
+
 
   private static final String CATEGORY = "category";
   private static final String SPECIAL = "special";
   private static final String PORTAL = "portal";
   private static final String REDIRECT = "redirect";
   private static final String STUB = "stub";
-  public static final String DISAMBIGUATION = "disambiguation";
+  private static final String DISAMBIGUATION = "disambiguation";
+  private static final String REFERENCES = "references";
+  private static final String FURTHER = "further";
+  private static final String SEEALSO = "seealso";
+  private static final String NOTES = "notes";
 
 
   /**
@@ -35,13 +44,17 @@ public class Language {
    * @param languageCode the language code of the wikipedia, e.g. "en" for English, "de" for German, "zh" for Chinese.
    */
   public Language(String languageCode){
-    JSONObject jobj = getJsonObject("en");
+    JSONObject jobj = getJsonObject(languageCode);
     this.localizedCategoryLabel = (String) jobj.get(CATEGORY);
     this.localizedSpecialLabel = (String) jobj.get(SPECIAL);
     this.localizedPortalLabel = (String) jobj.get(PORTAL);
     this.localizedRedirectLabel = (String) jobj.get(REDIRECT);
     this.localizedStubLabel = (String) jobj.get(STUB);
     this.disambiguationLabel = (String) jobj.get(DISAMBIGUATION);
+    this.referenceLabel = (String) jobj.get(REFERENCES);
+    this.furtherLabel = (String) jobj.get(FURTHER);
+    this.seealsoLabel = (String) jobj.get(SEEALSO);
+    this.notesLabel = (String) jobj.get(NOTES);
   }
 
   /**
@@ -62,27 +75,27 @@ public class Language {
     }
     return jobj;
   }
-  public static String getLocalizedCategoryLabel() {
+  public String getLocalizedCategoryLabel() {
     return localizedCategoryLabel;
   }
 
-  public static String getLocalizedSpecialLabel() {
+  public String getLocalizedSpecialLabel() {
     return localizedSpecialLabel;
   }
 
-  public static String getLocalizedPortalLabel() {
+  public String getLocalizedPortalLabel() {
     return localizedPortalLabel;
   }
 
-  public static String getLocalizedRedirectLabel() {
+  public String getLocalizedRedirectLabel() {
     return localizedRedirectLabel;
   }
 
-  public static String getLocalizedStubLabel() {
+  public String getLocalizedStubLabel() {
     return localizedStubLabel;
   }
 
-  public static String getDisambiguationLabel() {
+  public String getDisambiguationLabel() {
     return disambiguationLabel;
   }
 
