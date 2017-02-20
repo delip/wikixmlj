@@ -16,6 +16,7 @@ public class WikiXMLParserTest {
 
                 assertEquals("Isaac Newton", page.getTitle());
                 assertEquals("14627", page.getID());
+                assertEquals("2010-01-04T10:29:28Z", page.getTimestamp());
 
             }
         });

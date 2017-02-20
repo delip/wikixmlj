@@ -15,6 +15,7 @@ public class WikiPage {
     private String title = null;
     private WikiTextParser wikiTextParser = null;
     private String id = null;
+    private String timestamp = null;
     private Language language = null;
     private Pattern disambCatPattern = null; //Pattern.compile("\\("+language.getDisambiguationLabel()+"\\)", Pattern.CASE_INSENSITIVE);
     private Pattern categoryPattern = null; //Pattern.compile( language.getLocalizedCategoryLabel()+ "\\W\\w+", Pattern.CASE_INSENSITIVE);
@@ -162,5 +163,13 @@ public class WikiPage {
 
     public String getID() {
         return id;
+    }
+
+    public void setTimestamp(String timestamp) {
+        this.timestamp = timestamp;
+    }
+
+    public String getTimestamp() {
+        return timestamp;
     }
 }
