@@ -156,7 +156,8 @@ public class WikiPage {
     }
 
     public void setID(String id) {
-        this.id = id;
+        // Trim to get rid of extraneous whitespace and newline
+        this.id = id.trim();
     }
 
     public String getID() {
