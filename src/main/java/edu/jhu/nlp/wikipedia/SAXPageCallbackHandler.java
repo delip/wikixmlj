@@ -20,6 +20,7 @@ public class SAXPageCallbackHandler extends DefaultHandler {
 	private StringBuilder currentWikitext;
 	private StringBuilder currentTitle;
 	private StringBuilder currentID;
+	private StringBuilder currentTimestamp;
 	private String language = null;
 
 
@@ -42,6 +43,10 @@ public class SAXPageCallbackHandler extends DefaultHandler {
 			insideRevision = true;
 		}
 
+		if (qName.equals("timestamp")) {
+			currentTimestamp = new StringBuilder("");
+		}
+
 	}
 
 	@Override
@@ -49,15 +54,20 @@ public class SAXPageCallbackHandler extends DefaultHandler {
 		if (qName.equals("revision")){
 			insideRevision = false;
 		}
+
 		if (qName.equals("page")){
 			currentPage.setTitle(currentTitle.toString());
 			currentPage.setID(currentID.toString());
 			currentPage.setWikiText(currentWikitext.toString(), language);
 			pageHandler.process(currentPage);
 		}
-		if (qName.equals("mediawiki"))
-		{
+
+		if (qName.equals("mediawiki")) {
 			// TODO hasMoreElements() should now return false
+		}
+
+		if (qName.equals("timestamp")) {
+            currentPage.setTimestamp(currentTimestamp.toString());
 		}
 	}
 
@@ -72,6 +82,9 @@ public class SAXPageCallbackHandler extends DefaultHandler {
 		}
 		else if (currentTag.equals("text")){
 			currentWikitext = currentWikitext.append(ch, start, length);
+		}
+		else if (currentTag.equals("timestamp")) {
+		    currentTimestamp.append(ch, start, length);
 		}
 	}
 }
