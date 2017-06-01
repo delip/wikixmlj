@@ -78,7 +78,7 @@ public class WikiTextParser {
      * Create localized patterns (given the language in the constructor) for redirects, stubs, etc.
      */
     private void createPatterns(){
-        redirectPattern = Pattern.compile("#"+language.getLocalizedRedirectLabel()+"\\s*\\[\\[(.*?)\\]\\]", Pattern.CASE_INSENSITIVE);
+        redirectPattern = Pattern.compile(language.getLocalizedRedirectLabel()+"\\s*\\[\\[(.*?)\\]\\]", Pattern.CASE_INSENSITIVE);
         stubPattern = Pattern.compile("\\-"+language.getLocalizedStubLabel()+"\\}\\}", Pattern.CASE_INSENSITIVE);
         disambiguationPattern = Pattern.compile("\\{\\{"+language.getDisambiguationLabel()+"\\}\\}", Pattern.CASE_INSENSITIVE);
     }
